@@ -15,12 +15,10 @@ if [[ "${EUID}" -ne 0 ]]; then
   exit 1
 fi
 
-MON_IFACE="${IFACE}mon"
-
 echo "[1/4] Stopping NetworkManager on ${IFACE} (if managed)..."
 nmcli dev set "${IFACE}" managed no 2>/dev/null || true
 
-echo "[2/4] Creating monitor interface ${MON_IFACE} on channel ${CHANNEL}..."
+echo "[2/4] Monitor mode on ${IFACE} channel ${CHANNEL}..."
 ip link set "${IFACE}" down
 iw dev "${IFACE}" set type monitor
 ip link set "${IFACE}" up

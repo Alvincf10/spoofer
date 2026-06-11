@@ -31,7 +31,7 @@ struct UTM_parameters {
   char    UAS_operator[ID_SIZE];
   char    UAV_id[ID_SIZE];
   char    flight_desc[ID_SIZE];
-  uint8_t UA_type, ID_type, region, spare1,
+  uint8_t UA_type, ID_type, region, operator_loc_type,
           EU_category, EU_class, ID_type2, spare3;
   char    UTM_id[ID_SIZE * 2];
   char    secret[4];
@@ -65,6 +65,12 @@ struct UTM_data {
   int    vel_N_cm;
   int    vel_E_cm;
   int    vel_D_cm;
+  double operator_latitude_d;
+  double operator_longitude_d;
+  float  operator_alt_m;
+  uint8_t flight_status;
+  float  speed_vertical_mps;
+  float  alt_baro_m;
 };
 
 /*

@@ -30,7 +30,7 @@ static double julian_day(int,int,float,int);
  *
  */
 
-#ifndef ARDUINO
+#if !defined(ARDUINO) && !defined(LINUX_RIDS)
 
 int main(int argc,char *argv[]) {
 

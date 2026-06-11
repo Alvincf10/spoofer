@@ -1,0 +1,6 @@
+# lat,lon[,speed_mps][,alt_agl_m]
+# speed = cruise for leg starting at this point; alt = target AGL at point
+-6.2088,106.8456,12,45
+-6.2050,106.8500,8,70
+-6.2000,106.8550,15,100
+-6.1988,106.8556,10,55

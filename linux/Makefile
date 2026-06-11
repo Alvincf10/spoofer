@@ -13,16 +13,20 @@ CORE_DIR = ../RemoteIDSpoofer
 
 CPP_SRCS = \
 	src/main.cpp \
+	src/config.cpp \
+	src/waypoints.cpp \
 	src/spoofer.cpp \
 	src/wifi_tx.cpp \
 	src/id_open_linux.cpp \
 	$(CORE_DIR)/id_open.cpp \
 	$(CORE_DIR)/id_open_beacon.cpp \
-	$(CORE_DIR)/utm.cpp
+	$(CORE_DIR)/utm.cpp \
+	$(CORE_DIR)/drone_profiles.cpp
 
 C_SRCS = \
 	$(CORE_DIR)/opendroneid.c \
-	$(CORE_DIR)/wifi.c
+	$(CORE_DIR)/wifi.c \
+	$(CORE_DIR)/alt_unix_time.c
 
 CPP_OBJS = $(patsubst src/%.cpp,$(BUILD_DIR)/%.o,$(filter src/%,$(CPP_SRCS))) \
            $(patsubst $(CORE_DIR)/%.cpp,$(BUILD_DIR)/core_%.o,$(filter $(CORE_DIR)/%,$(CPP_SRCS)))

@@ -1,0 +1,34 @@
+# Alfa RTL8814AU — Remote ID spoofer config
+# Copy: cp rids.conf.example rids.conf
+
+iface=wlan0
+channel=6
+region=generic
+drones=8
+
+# --- Patrol mode (default) ---
+# Random flight around center point:
+lat=-6.2088
+lon=106.8456
+
+# --- Mission mode (autonomous A -> B) ---
+# Uncomment lat_b/lon_b to fly from (lat,lon) to (lat_b,lon_b):
+# lat=-6.2088
+# lon=106.8456
+# lat_b=-6.1988
+# lon_b=106.8556
+# speed_ms=12
+# loop=1
+
+# --- Waypoint mode (multi-leg route) ---
+# Overrides mission A->B when set. CSV: lat,lon[,speed_mps][,alt_m] or GPX trkpt:
+# waypoints=routes/mission.wpt
+# speed_ms=12
+# alt_m=50
+# loop=1
+
+# --- Pilot / altitude (mission & waypoint) ---
+# pilot_follow=1          # operator trails behind drone (LIVE_GNSS)
+# pilot_offset_m=30       # meters behind along flight path
+# alt_m=50                # default AGL (m); mission: alt at A
+# alt_b_m=80              # mission only: alt at B

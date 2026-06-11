@@ -26,7 +26,7 @@ int build_radiotap(uint8_t *out, int channel) {
       0x00, 0x00,                   // version, pad
       0x0e, 0x00,                   // radiotap length = 14
       0x0c, 0x00, 0x00, 0x00,       // present: RATE | TX_FLAGS
-      0x02,                         // 1 Mbps (typical for beacons)
+      0x0c,                         // 6 Mbps — common for ASTM WiFi beacons / Alfa inject
       0x00, 0x00,                   // TX flags
       static_cast<uint8_t>(freq & 0xff),
       static_cast<uint8_t>((freq >> 8) & 0xff),

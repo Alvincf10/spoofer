@@ -55,8 +55,8 @@ void ID_OpenDrone::init_beacon() {
   beacon_seq              = header->seq;
   
   header->control[0]      = 0x80;
-  header->interval[0]     = (uint8_t)  beacon_interval;
-  header->interval[1]     = (uint8_t) (beacon_interval >> 8);
+  header->interval[0]     = (uint8_t)  beacon_interval_tu;
+  header->interval[1]     = (uint8_t) (beacon_interval_tu >> 8);
 
   memcpy(header->capability,capability(),2);
 

@@ -1,80 +1,158 @@
-# RIDS - Remote ID Spoofer
+# RIDS — Remote ID Spoofer (Alfa RTL8814AU)
 
-An ESP8266/NodeMCU Drone RemoteID Spoofer.
-Built based on work done by [sxjack](https://github.com/sxjack/uav_electronic_ids) and [SpacehuhnTech](https://github.com/SpacehuhnTech/esp8266_deauther).
-I stand on the shoulders of giants.
+Broadcast **ASTM OpenDroneID** over **WiFi beacon + WiFi NAN** from **Linux** using an **Alfa USB adapter** (RTL8814AU, e.g. AWUS1900) in monitor mode with packet injection.
 
-This spawns 16 different fake drones broadcasting RemoteID, with them all flying in random directions around a particular GPS location.
+Simulates up to **16 drones** with commercial-style profiles (DJI / Autel / Skydio / Parrot): vendor serials, MAC OUIs, operator IDs, LIVE_GNSS pilot tracking, and realistic airborne telemetry.
 
-Do check that whatever device you're using to detect the drones can sniff packets from the air fast enough.
-If you're using OpenDroneID available on the App Store or Play Store, you'll have to disable scan throttling for your device, and run the app for ~5-10 minutes before all 16 drones are actually "in the air".
-You may also have to switch off Wi-Fi, disconnecting from your usual local network on your Android device, for the Wi-Fi chip to be able to scan.
+| Platform | Status |
+|----------|--------|
+| Linux + RTL8814AU (injection) | **Supported** |
+| macOS / Windows | Not supported |
+| ESP8266/ESP32 (`RemoteIDSpoofer/`) | Legacy Arduino path |
 
-<img src="./images/proof.jpg"  width="600">
+**Full guide (driver, config, troubleshooting):** [linux/README.md](linux/README.md)
 
-## Installation
+---
 
-### ESP8266 / ESP32 (standalone)
+## Features
 
-1. You need the [Arduino IDE](https://www.arduino.cc/en/software).
-2. Open the file `RemoteIDSpoofer/RemoteIDSpoofer.ino`.
-3. Now go to `Tools` > `Boards` > `Boards Manager`, search `esp8266` (or `esp32` if you're using an ESP32) and install `ESP8266 Boards` (or `esp32` by either vendors).
-4. Select your board at `Tools` > `Board` > `ESP8266 Boards` (or `esp32`). It's most likely the `Generic ESP8266 Module`.
-5. Plug in your device, and select its COM port at `Tools` > `Port`.
-6. Press `upload`, or use Ctrl+U.
-7. The device should start broadcasting RemoteID packets generated for random flying machines.
+- **WiFi beacon + NAN** @ 1 Hz, full ODID message pack per transmit
+- **8 vendor profiles** — edit `RemoteIDSpoofer/drone_profiles.json`
+- **Flight modes:** Patrol · Mission A→B · Waypoint multi-leg (`.wpt` / `.gpx`)
+- **Pilot follow** — operator LIVE_GNSS trails ~30 m behind the drone (auto on for mission/waypoint)
+- **Route tuning** — per-leg speed & altitude; interpolated climb along each leg
+- **Regions:** `us` (FAA), `eu`, `generic` operator IDs
 
-### Linux + Alfa RTL8814AU (USB WiFi adapter)
+---
 
-Requires **Linux** + patched RTL8814AU driver (e.g. Alfa AWUS1900). macOS/Windows are not supported for this port.
-
-1. Install driver — see [linux/README.md](linux/README.md) for the full Alfa driver guide (morrownr / aircrack-ng, blacklist, verification).
-2. Build and run:
+## Quick start
 
 ```bash
 cd linux
-sudo apt install -y build-essential libpcap-dev   # Debian/Ubuntu
+sudo apt install -y build-essential libpcap-dev linux-headers-$(uname -r)
 make
-sudo ./scripts/setup_monitor.sh wlan0 6           # replace wlan0 with your interface
-sudo ./rids-spoofer -i wlan0 -c 6 -lat -6.2 -lon 106.8 -n 16
+cp rids.conf.example rids.conf
+# edit rids.conf — see linux/README.md
+# install morrownr RTL8814AU driver (once) — see linux/README.md
+sudo ./scripts/alfa_spoof.sh
 ```
 
-Full setup: **[linux/README.md](linux/README.md)** (driver install, monitor mode, verification, troubleshooting).
+Press **Ctrl+C** to stop.
 
-## Usage
+---
 
-**Pro Tip**:
-There is no need to do these steps everytime you use the device, once the parameters are set, they are remembered across power cycles.
-Configuration is only needed when when parameter change is desired.
+## Flight modes
 
-1. After the installation steps, connect to the wireless access point `ESP_RIDS` using the password `makkauhijau` on any device, a smartphone will work well enough.
-2. Go to the website `192.168.4.1` on the connected device.
-3. There, input your own GPS coordinates.
-4. Start spoofing!
+Priority: **Waypoint** → **Mission** → **Patrol** (default)
 
-> If no GPS coordinates are used within 2 minutes of startup, the device will automatically go into spoofing mode and you will not be able to change the coordinates without a power cycle.
+### Patrol
 
-## To-Do List (In order of importance)
+Random flight around `lat` / `lon`.
 
-- [x] ESP32 support
-- [x] Linux + USB WiFi (Alfa RTL8814AU / inject-capable adapters)
-- [x] Make it so drones don't wander away over time (something like `new_location = old_location + 0.5 * progress + 0.5 * (home - old_location)`)
-	- [x] Fix resulting motions	
-- [ ] Get time from browser (possibly with [this](https://www.w3schools.com/jsref/jsref_gettime.asp))
-- [x] Configurable number of drones in the air
-- [x] Save config onboard
-- [ ] Use valid RIDs and have option to select region
-- [ ] Automated CI (I have no idea how to do this)
-- [ ] Get GPS from browser? (Requires SSL certs on frontend)
-- [x] Make Frontend look nicer
+### Mission A → B
+
+Straight-line flight with cruise speed, optional altitude interpolation (`alt_m` → `alt_b_m`), ping-pong loop.
+
+```ini
+lat=-6.2088
+lon=106.8456
+lat_b=-6.1988
+lon_b=106.8556
+speed_ms=12
+alt_m=50
+alt_b_m=80
+loop=1
+```
+
+### Waypoint route
+
+Multi-leg path from a file. CSV format: `lat,lon[,speed_mps][,alt_m]`
+
+```ini
+waypoints=routes/mission.wpt
+speed_ms=12
+alt_m=50
+loop=1
+pilot_follow=1
+pilot_offset_m=30
+```
+
+Example `linux/routes/mission.wpt`:
+
+```text
+-6.2088,106.8456,12,45
+-6.2050,106.8500,8,70
+-6.2000,106.8550,15,100
+```
+
+---
+
+## Configuration (`linux/rids.conf`)
+
+| Key | Meaning |
+|-----|---------|
+| `iface` | Monitor interface |
+| `channel` | 2.4 GHz channel (default `6`) |
+| `lat` / `lon` | Patrol center / point A |
+| `lat_b` / `lon_b` | Point B — enables mission mode |
+| `waypoints` | Route file — enables waypoint mode (highest priority) |
+| `speed_ms` | Default cruise speed (m/s) |
+| `alt_m` | Default altitude AGL (m) |
+| `alt_b_m` | Mission point-B altitude |
+| `loop` | `1` = loop route, `0` = one-way |
+| `pilot_follow` | `1` = operator follows behind drone |
+| `pilot_offset_m` | Distance behind drone (m, default `30`) |
+| `drones` | Count 1–16 |
+| `region` | `us`, `eu`, `generic` |
+
+**CLI examples:**
+
+```bash
+# Mission
+sudo ./rids-spoofer -i wlan0mon -lat -6.2088 -lon 106.8456 \
+  -latB -6.1988 -lonB 106.8556 -speed 12 -alt 50 -altB 80 -loop 1 -n 4
+
+# Waypoint
+sudo ./rids-spoofer -i wlan0mon -waypoints routes/mission.wpt -speed 12 -n 4
+```
+
+---
+
+## Verify injection (before first spoof)
+
+```bash
+cd linux
+IFACE=$(./scripts/detect_alfa.sh)
+sudo ./scripts/setup_monitor.sh "$IFACE" 6
+sudo apt install -y aircrack-ng
+sudo aireplay-ng --test "$IFACE"
+# expect: Injection is working!
+```
+
+---
+
+## Scanner tips (OpenDroneID app)
+
+- Disconnect phone from home WiFi
+- Match channel **6** (default) on Alfa and scanner
+- Wait 5–10 minutes; start with `drones=4` if slow
+- Spoofer sends both **beacon** and **WiFi NAN** frames
+
+---
+
+## Project layout
+
+```
+linux/                    ← use this (Alfa port)
+  rids-spoofer            ← binary
+  scripts/alfa_spoof.sh   ← recommended entry point
+  routes/mission.wpt      ← example waypoint route
+  rids.conf.example
+RemoteIDSpoofer/          ← shared OpenDroneID core + drone profiles + legacy ESP
+```
+
+---
 
 ## Disclaimer
 
-This repository and its code are intended for educational purposes only.
-Neither the ESP8266, nor its SDK were meant or built for such purposes.
-Bugs can occur!
-
-It is also (probably) illegal to be broadcasting fake RemoteID packets in public airspace, in the same way that spoofing ADS-B packets is illegal.
-Whatever manner you wish to use this on is at your own discretion, we don't take any responsibility for what you do with this software.
-
-[![Star History Chart](https://api.star-history.com/svg?repos=jjshoots/RemoteIDSpoofer&type=Date)](https://star-history.com/#jjshoots/RemoteIDSpoofer&Date)
+Educational / lab use only. Broadcasting false Remote ID may be illegal in your jurisdiction. You are responsible for compliance.

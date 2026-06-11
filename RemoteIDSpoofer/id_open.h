@@ -55,6 +55,7 @@
 
 #define ID_OD_WIFI_NAN    0
 #define ID_OD_WIFI_BEACON 1
+#define ID_OD_WIFI_NAN_ALSO 1
 #define ID_OD_BT          0
 
 #define USE_BEACON_FUNC   0
@@ -82,9 +83,21 @@
 #define ID_OD_WIFI        0
 #endif
 
+#if !defined(ID_OD_WIFI_NAN_ALSO)
+#define ID_OD_WIFI_NAN_ALSO 0
+#endif
+
 #define WIFI_CHANNEL      6        // Be careful changing this.
 #define BEACON_FRAME_SIZE 512
 #define BEACON_INTERVAL   0        // ms, defaults to 500. Android apps would prefer 100ms.
+
+#if defined(LINUX_RIDS)
+#define RID_WIFI_TX_MS         1000
+#define RID_BEACON_INTERVAL_TU 100
+#else
+#define RID_WIFI_TX_MS         1000
+#define RID_BEACON_INTERVAL_TU 100
+#endif
 
 // Used by the id_open_beacon and id_open_esp32.
  
@@ -127,6 +140,7 @@ public:
   void     set_self_id(char *);
   void     set_auth(char *);
   void     set_auth(uint8_t *,short int,uint8_t);
+  void     set_wifi_mac(const uint8_t mac[6]);
   int      transmit(struct UTM_data *);
 #if ID_NATIONAL
   void     init_national(struct UTM_parameters *);
@@ -145,7 +159,6 @@ private:
   int                     auth_page = 0, auth_page_count = 0, key_length = 0, iv_length = 0;
   char                   *UAS_operator;
   uint8_t                 msg_counter[16];
-  uint8_t                 wifi_toggle = 1;
   uint16_t                wifi_interval = 0, ble_interval = 0;
   uint32_t                last_ble = 0, last_wifi = 0, msecs = 0, last_msecs = 2000;
   Stream                 *Debug_Serial = NULL;
@@ -155,7 +168,10 @@ private:
   uint8_t                 WiFi_mac_addr[6], wifi_channel = WIFI_CHANNEL,
                          *auth_key = NULL, *auth_iv = NULL;
 #if ID_OD_WIFI
-  uint16_t                sequence = 1, beacon_interval = 0x200;
+  uint16_t                sequence = 1;
+  uint16_t                wifi_tx_interval_ms = RID_WIFI_TX_MS;
+  uint16_t                beacon_interval_tu = RID_BEACON_INTERVAL_TU;
+  uint8_t                 nan_send_counter = 0;
 #if ID_OD_WIFI_BEACON
   int                     beacon_offset = 0, beacon_max_packed = 30;
   uint8_t                 beacon_frame[BEACON_FRAME_SIZE],
