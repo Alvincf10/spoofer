@@ -244,13 +244,7 @@ void Spoofer::init(int index, RidRegion region) {
   default_alt_m = 50.0f;
   default_speed_mps = 12.0f;
 
-  memset(&clock_tm, 0, sizeof(struct tm));
-  clock_tm.tm_hour = 10;
-  clock_tm.tm_mday = 16;
-  clock_tm.tm_mon = 11;
-  clock_tm.tm_year = 122;
-  tv.tv_sec = time_2 = mktime(&clock_tm);
-  settimeofday(&tv, &utc);
+
 
   pilot_x = static_cast<float>(rand() % 100 - 50) / 10.0f;
   pilot_y = static_cast<float>(rand() % 100 - 50) / 10.0f;

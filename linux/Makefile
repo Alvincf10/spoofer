@@ -2,9 +2,9 @@ CXX ?= g++
 CC ?= gcc
 
 BUILD_DIR = build
-CXXFLAGS = -std=c++17 -Wall -Wextra -O2 -DLINUX_RIDS \
+CXXFLAGS = -std=c++17 -Wall -Wextra -O2 -DLINUX_RIDS -D_POSIX_C_SOURCE=200809L \
            -Iinclude -I../RemoteIDSpoofer
-CFLAGS = -std=c11 -Wall -Wextra -O2 -DLINUX_RIDS \
+CFLAGS = -std=c11 -Wall -Wextra -O2 -DLINUX_RIDS -D_POSIX_C_SOURCE=200809L \
          -Iinclude -I../RemoteIDSpoofer
 
 LDFLAGS = -lpcap

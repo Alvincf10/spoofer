@@ -16,6 +16,7 @@
 #include <Arduino.h>
 
 #include "utm.h"
+#include <math.h>
 
 /*
  *

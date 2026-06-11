@@ -25,12 +25,12 @@ int build_radiotap(uint8_t *out, int channel) {
   const uint8_t header[] = {
       0x00, 0x00,                   // version, pad
       0x0e, 0x00,                   // radiotap length = 14
-      0x0c, 0x00, 0x00, 0x00,       // present: RATE | TX_FLAGS
-      0x0c,                         // 6 Mbps — common for ASTM WiFi beacons / Alfa inject
-      0x00, 0x00,                   // TX flags
+      0x0c, 0x00, 0x00, 0x00,       // present: RATE | CHANNEL
+      0x02,                         // RATE (1 Mbps)
+      0x00,                         // 1 byte padding for alignment
       static_cast<uint8_t>(freq & 0xff),
       static_cast<uint8_t>((freq >> 8) & 0xff),
-      0x60, 0x00,                   // channel flags: 2 GHz
+      0xa0, 0x00,                   // channel flags: 2 GHz + CCK
   };
   memcpy(out, header, sizeof(header));
   return static_cast<int>(sizeof(header));

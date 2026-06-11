@@ -17,6 +17,7 @@ sw@simonwunderlich.de
 #include <string.h>
 #include <stddef.h>
 #include <stdio.h>
+#include <time.h>
 #endif
 
 #include <errno.h>

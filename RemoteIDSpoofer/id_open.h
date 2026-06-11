@@ -53,12 +53,12 @@
 
 #elif defined(LINUX_RIDS)
 
-#define ID_OD_WIFI_NAN    0
+#define ID_OD_WIFI_NAN    1
 #define ID_OD_WIFI_BEACON 1
 #define ID_OD_WIFI_NAN_ALSO 1
 #define ID_OD_BT          0
 
-#define USE_BEACON_FUNC   0
+#define USE_BEACON_FUNC   1
 
 #else
 
