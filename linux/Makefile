@@ -10,6 +10,8 @@ CFLAGS = -std=c11 -Wall -Wextra -O2 -DLINUX_RIDS -D_POSIX_C_SOURCE=200809L \
 LDFLAGS = -lpcap
 
 CORE_DIR = ../RemoteIDSpoofer
+PROFILES_JSON = $(CORE_DIR)/drone_profiles.json
+GEN_PROFILES = scripts/gen_drone_profiles.py
 
 CPP_SRCS = \
 	src/main.cpp \
@@ -34,9 +36,14 @@ C_OBJS = $(patsubst $(CORE_DIR)/%.c,$(BUILD_DIR)/core_%.o,$(C_SRCS))
 
 TARGET = rids-spoofer
 
-.PHONY: all clean
+.PHONY: all clean profiles
 
-all: $(TARGET)
+all: profiles $(TARGET)
+
+profiles: $(CORE_DIR)/drone_profiles.cpp
+
+$(CORE_DIR)/drone_profiles.cpp: $(PROFILES_JSON) $(GEN_PROFILES)
+	python3 $(GEN_PROFILES) $(PROFILES_JSON) $@
 
 $(TARGET): $(CPP_OBJS) $(C_OBJS) | $(BUILD_DIR)
 	$(CXX) $(CXXFLAGS) -o $@ $^ $(LDFLAGS)

@@ -4,6 +4,8 @@ set -euo pipefail
 
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 CONF="${ROOT}/rids.conf"
+PROFILES_JSON="${ROOT}/../RemoteIDSpoofer/drone_profiles.json"
+GEN_PROFILES="${ROOT}/scripts/gen_drone_profiles.py"
 SETUP_CHANNEL="6"
 SKIP_SETUP=0
 
@@ -48,6 +50,28 @@ if [[ -z "${IFACE}" ]]; then
 fi
 
 SETUP_CHANNEL="$(read_cfg channel 6)"
+NUM_DRONES="$(read_cfg drones 5)"
+MANUFACTURER="$(read_cfg manufacturer "")"
+
+if [[ ! -f "${PROFILES_JSON}" ]]; then
+  echo "Profile JSON not found: ${PROFILES_JSON}" >&2
+  exit 1
+fi
+
+GEN_ARGS=()
+[[ -n "${MANUFACTURER}" ]] && GEN_ARGS+=(--manufacturer "${MANUFACTURER}")
+
+echo "==> Loading drone models from ${PROFILES_JSON}"
+if [[ -n "${MANUFACTURER}" ]]; then
+  echo "    filter: manufacturer=${MANUFACTURER}"
+fi
+python3 "${GEN_PROFILES}" "${GEN_ARGS[@]}" "${PROFILES_JSON}" "${ROOT}/../RemoteIDSpoofer/drone_profiles.cpp"
+python3 "${GEN_PROFILES}" "${GEN_ARGS[@]}" --list "${NUM_DRONES}" "${PROFILES_JSON}"
+
+if ! make -C "${ROOT}" -q 2>/dev/null; then
+  echo "==> Rebuilding rids-spoofer"
+  make -C "${ROOT}"
+fi
 
 if [[ "${SKIP_SETUP}" -eq 0 ]]; then
   echo "==> Monitor mode on ${IFACE} channel ${SETUP_CHANNEL}"

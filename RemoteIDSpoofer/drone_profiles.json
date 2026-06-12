@@ -1,114 +1,5020 @@
 [
   {
-    "manufacturer": "DJI",
-    "model": "Mini 3 Pro",
+    "manufacturer": "A2Z",
+    "model": "Longtail",
     "ua_type": 2,
     "id_type": 1,
-    "serial_prefix": "1581F",
-    "serial_total_len": 20,
-    "eu_category": 1,
-    "eu_class": 1,
-    "classification_region": 1,
-    "self_id_desc": "Recreational",
-    "eu_op_prefix": "DEU",
-    "mac_oui": [52, 210, 98]
+    "serial_prefix": "A2ZD46",
+    "serial_total_len": 9,
+    "rid_tracking": "RID000001918",
+    "faa_status": "accepted",
+    "serial_range": "A2ZD46000-A2ZD46999"
   },
   {
-    "manufacturer": "DJI",
-    "model": "Mavic 3",
+    "manufacturer": "A2Z",
+    "model": "Longtail",
     "ua_type": 2,
     "id_type": 1,
-    "serial_prefix": "1ZNBJ",
-    "serial_total_len": 20,
-    "eu_category": 1,
-    "eu_class": 2,
-    "classification_region": 1,
-    "self_id_desc": "Recreational",
-    "eu_op_prefix": "DEU",
-    "mac_oui": [52, 210, 98]
+    "serial_prefix": "216546",
+    "serial_total_len": 9,
+    "rid_tracking": "RID000001918",
+    "faa_status": "accepted",
+    "serial_range": "216546000-216546999"
   },
   {
-    "manufacturer": "DJI",
-    "model": "Air 3",
+    "manufacturer": "ABZ Innovation",
+    "model": "C10",
     "ua_type": 2,
     "id_type": 1,
-    "serial_prefix": "4KUXT",
+    "serial_prefix": "1759FABZ000000000001",
     "serial_total_len": 20,
-    "eu_category": 1,
-    "eu_class": 2,
-    "classification_region": 1,
-    "self_id_desc": "Recreational",
-    "eu_op_prefix": "FRA",
-    "mac_oui": [52, 210, 98]
+    "rid_tracking": "RID000002616",
+    "faa_status": "accepted"
   },
   {
-    "manufacturer": "DJI",
-    "model": "Avata 2",
+    "manufacturer": "ABZ Innovation",
+    "model": "L50",
     "ua_type": 2,
     "id_type": 1,
-    "serial_prefix": "1581F",
+    "serial_prefix": "1759FABZL50",
     "serial_total_len": 20,
-    "eu_category": 1,
-    "eu_class": 1,
-    "classification_region": 1,
-    "self_id_desc": "Recreational",
-    "eu_op_prefix": "GBR",
-    "mac_oui": [52, 210, 98]
+    "rid_tracking": "RID000002678",
+    "faa_status": "accepted",
+    "serial_range": "1759FABZL50000000000-1759FABZL50ZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "ACSL",
+    "model": "SOTEN",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1634FS0TEN2112A00014",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000001258",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Aero Systems West",
+    "model": "Heavy Lift Multirotor",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1620A1072407001",
+    "serial_total_len": 15,
+    "rid_tracking": "RID000000469",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Aero Systems West",
+    "model": "Intermediate Lift Multirotor",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1620A1102407361",
+    "serial_total_len": 15,
+    "rid_tracking": "RID000000619",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Aero Systems West",
+    "model": "RID Broadcast Module",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1620B20226030001",
+    "serial_total_len": 16,
+    "rid_tracking": "RID000002666",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Aerobits",
+    "model": "idME",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "18099340000130",
+    "serial_total_len": 14,
+    "rid_tracking": "RID000002604",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Aeroo",
+    "model": "Aeroo Pro",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "20499AP0000000",
+    "serial_total_len": 14,
+    "rid_tracking": "RID000002037",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Aerostar Dynamics",
+    "model": "Pro",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "2061FADPR001",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000002214",
+    "faa_status": "accepted",
+    "serial_range": "2061FADPR00100000001-2061FADPR00199999999"
+  },
+  {
+    "manufacturer": "Aerostar Dynamics",
+    "model": "Scout",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "2061FADSCT01",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000002205",
+    "faa_status": "accepted",
+    "serial_range": "2061FADSCT0100000001-2061FADSCT0199999999"
+  },
+  {
+    "manufacturer": "Aerostar Dynamics",
+    "model": "Scout V2",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "2061FADSCT02",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000002624",
+    "faa_status": "accepted",
+    "serial_range": "2061FADSCT0200000001-2061FADSCT0299999999"
+  },
+  {
+    "manufacturer": "Aerostar Dynamics",
+    "model": "U5501",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "2061FU5501",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000002220",
+    "faa_status": "accepted",
+    "serial_range": "2061FU55010000000001-2061FU55019999999999"
+  },
+  {
+    "manufacturer": "AgEagle (senseFly)",
+    "model": "eBee X series",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1587A057000",
+    "serial_total_len": 15,
+    "rid_tracking": "RID000000056",
+    "faa_status": "accepted",
+    "serial_range": "1587A0570003000-1587A0570005ZZZ"
+  },
+  {
+    "manufacturer": "AgEagle (senseFly)",
+    "model": "eBee X series",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1587A05",
+    "serial_total_len": 15,
+    "rid_tracking": "RID000000056",
+    "faa_status": "accepted",
+    "serial_range": "1587A0510003000-1587A0540005ZZZ"
+  },
+  {
+    "manufacturer": "Airobotics",
+    "model": "Optimus 1-EX",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "20473323",
+    "serial_total_len": 8,
+    "rid_tracking": "RID000001634",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Amazon Prime Air",
+    "model": "MK27-2",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "17868SN000714",
+    "serial_total_len": 13,
+    "rid_tracking": "RID000000378",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Amazon Prime Air",
+    "model": "MK30",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "17865",
+    "serial_total_len": 10,
+    "rid_tracking": "RID000001843",
+    "faa_status": "accepted",
+    "serial_range": "178650100E-17865ZZZZZ"
+  },
+  {
+    "manufacturer": "Antigravity",
+    "model": "A1(DE001)",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "2137FDE1",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000002621",
+    "faa_status": "accepted",
+    "serial_range": "2137FDE1000000000000-2137FDE1ZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "Anzu Robotics",
+    "model": "Raptor",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1907F7USE23B80010001",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000001035",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Anzu Robotics",
+    "model": "Raptor T",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1907F7UEE23B80010001",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000001036",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Applied Aeronautics",
+    "model": "Albatross",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "16416",
+    "serial_total_len": 11,
+    "rid_tracking": "RID000001097",
+    "faa_status": "accepted",
+    "serial_range": "16416000000-16416999999"
+  },
+  {
+    "manufacturer": "Arcsky",
+    "model": "X55",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1924A01",
+    "serial_total_len": 15,
+    "rid_tracking": "RID000000428",
+    "faa_status": "accepted",
+    "serial_range": "1924A0100000000-1924A0199999999"
+  },
+  {
+    "manufacturer": "Arcsky",
+    "model": "Xplorer",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1924A02",
+    "serial_total_len": 15,
+    "rid_tracking": "RID000002648",
+    "faa_status": "accepted",
+    "serial_range": "1924A0200000000-1924A0299999999"
+  },
+  {
+    "manufacturer": "Ascent AeroSystems",
+    "model": "NX30",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1812FNX30",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000000160",
+    "faa_status": "accepted",
+    "serial_range": "1812FNX30AAA000000AA-1812FNX30ZZZ999999AA"
+  },
+  {
+    "manufacturer": "Ascent AeroSystems",
+    "model": "Spirit",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1812FSPRT",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000000126",
+    "faa_status": "accepted",
+    "serial_range": "1812FSPRTAAA000000AA-1812FSPRTZZZ999999ZZ"
+  },
+  {
+    "manufacturer": "Ascent AeroSystems Inc",
+    "model": "K257B-Spirit",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1812FSPRTAAA000000BB",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000000769",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Atom UAV",
+    "model": "FLATMUAVW",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1710FFLATMUAVW009924",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000000710",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Atom UAV (OEM)",
+    "model": "FLATMUAOW",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1710FFLATMUAOW009965",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000000711",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Aurelia",
+    "model": "Believer",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "19069B09014000",
+    "serial_total_len": 14,
+    "rid_tracking": "RID000000632",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Aurelia",
+    "model": "Skywalker",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "19069B07014000",
+    "serial_total_len": 14,
+    "rid_tracking": "RID000000633",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Aurelia",
+    "model": "Talon GT",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "19069B08014000",
+    "serial_total_len": 14,
+    "rid_tracking": "RID000000634",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Aurelia",
+    "model": "Tarot 650",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "19069B00014000",
+    "serial_total_len": 14,
+    "rid_tracking": "RID000000358",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Aurelia",
+    "model": "X4",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "19069B01014000",
+    "serial_total_len": 14,
+    "rid_tracking": "RID000000331",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Aurelia",
+    "model": "X6 MAX",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "19069B04014000",
+    "serial_total_len": 14,
+    "rid_tracking": "RID000000352",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Aurelia",
+    "model": "X6 Pro",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "19069B03014000",
+    "serial_total_len": 14,
+    "rid_tracking": "RID000000353",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Aurelia",
+    "model": "X6 Pro V2",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "19069B10014000",
+    "serial_total_len": 14,
+    "rid_tracking": "RID000000354",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Aurelia",
+    "model": "X6 Standard",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "19069B02023963",
+    "serial_total_len": 14,
+    "rid_tracking": "RID000000351",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Aurelia",
+    "model": "X8 MAX",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "19069B06023924",
+    "serial_total_len": 14,
+    "rid_tracking": "RID000000357",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Aurelia",
+    "model": "X8 Standard",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "19069B05014000",
+    "serial_total_len": 14,
+    "rid_tracking": "RID000000355",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Aurora Flight Sciences",
+    "model": "SKIRON-X B003",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "2046DSKRXB003",
+    "serial_total_len": 18,
+    "rid_tracking": "RID000002346",
+    "faa_status": "accepted",
+    "serial_range": "2046DSKRXB00300001-2046DSKRXB00399999"
+  },
+  {
+    "manufacturer": "Autel",
+    "model": "Autel Alpha",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1748FEV4ALP910251369",
+    "serial_total_len": 20,
+    "mac_oui": [
+      24,
+      215,
+      147
+    ],
+    "rid_tracking": "RID000001332",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Autel",
+    "model": "Dragonfish Lite",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1748CJD2",
+    "serial_total_len": 17,
+    "mac_oui": [
+      24,
+      215,
+      147
+    ],
+    "rid_tracking": "RID000000046",
+    "faa_status": "accepted",
+    "serial_range": "1748CJD2822390001-1748CJD2925529999"
+  },
+  {
+    "manufacturer": "Autel",
+    "model": "Dragonfish Pro",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1748FDF3JD3924021039",
+    "serial_total_len": 20,
+    "mac_oui": [
+      24,
+      215,
+      147
+    ],
+    "rid_tracking": "RID000000047",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Autel",
+    "model": "Dragonfish Standard",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1748FDF1JD1920231023",
+    "serial_total_len": 20,
+    "mac_oui": [
+      24,
+      215,
+      147
+    ],
+    "rid_tracking": "RID000000048",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Autel",
+    "model": "EVO II",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1748CH",
+    "serial_total_len": 17,
+    "mac_oui": [
+      24,
+      215,
+      147
+    ],
+    "rid_tracking": "RID000000030",
+    "faa_status": "accepted",
+    "serial_range": "1748CHL7822390001-1748CHN2925529999"
+  },
+  {
+    "manufacturer": "Autel",
+    "model": "EVO II V3",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1748CHL7823021032",
+    "serial_total_len": 17,
+    "mac_oui": [
+      24,
+      215,
+      147
+    ],
+    "rid_tracking": "RID000001969",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Autel",
+    "model": "EVO Lite",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1748CLTC",
+    "serial_total_len": 17,
+    "mac_oui": [
+      24,
+      215,
+      147
+    ],
+    "rid_tracking": "RID000000032",
+    "faa_status": "accepted",
+    "serial_range": "1748CLTC822390001-1748CLTC925529999"
   },
   {
     "manufacturer": "Autel",
     "model": "EVO Lite+",
     "ua_type": 2,
     "id_type": 1,
-    "serial_prefix": "AU7YC",
-    "serial_total_len": 20,
-    "eu_category": 1,
-    "eu_class": 2,
-    "classification_region": 1,
-    "self_id_desc": "Commercial",
-    "eu_op_prefix": "DEU",
-    "mac_oui": [140, 133, 128]
+    "serial_prefix": "1748CLTC",
+    "serial_total_len": 17,
+    "mac_oui": [
+      24,
+      215,
+      147
+    ],
+    "rid_tracking": "RID000000035",
+    "faa_status": "accepted",
+    "serial_range": "1748CLTC822390001-1748CLTC925529999"
   },
   {
     "manufacturer": "Autel",
-    "model": "EVO II Pro",
+    "model": "EVO Max",
     "ua_type": 2,
     "id_type": 1,
-    "serial_prefix": "AU8TN",
+    "serial_prefix": "1748FEV3HMA111468001",
     "serial_total_len": 20,
-    "eu_category": 1,
-    "eu_class": 3,
-    "classification_region": 1,
-    "self_id_desc": "Commercial",
-    "eu_op_prefix": "NLD",
-    "mac_oui": [140, 133, 128]
+    "mac_oui": [
+      24,
+      215,
+      147
+    ],
+    "rid_tracking": "RID000000151",
+    "faa_status": "accepted"
   },
   {
-    "manufacturer": "Skydio",
-    "model": "2+",
+    "manufacturer": "Autel",
+    "model": "EVO Nano",
     "ua_type": 2,
     "id_type": 1,
-    "serial_prefix": "SDX00",
+    "serial_prefix": "1748CNA0910012021",
+    "serial_total_len": 17,
+    "mac_oui": [
+      24,
+      215,
+      147
+    ],
+    "rid_tracking": "RID000001038",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Autel",
+    "model": "EVO Nano+",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1748CNAC823251024",
+    "serial_total_len": 17,
+    "mac_oui": [
+      24,
+      215,
+      147
+    ],
+    "rid_tracking": "RID000002429",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Autel",
+    "model": "MDX-1",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1748FEV3HMH924161009",
     "serial_total_len": 20,
-    "eu_category": 1,
-    "eu_class": 2,
-    "classification_region": 1,
-    "self_id_desc": "Commercial",
-    "eu_op_prefix": "USA",
-    "mac_oui": [252, 241, 54]
+    "mac_oui": [
+      24,
+      215,
+      147
+    ],
+    "rid_tracking": "RID000002344",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Avidrone",
+    "model": "210TL",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1787F03BM23080003568",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000000795",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Avidrone",
+    "model": "F4",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1787F03BM24010011644",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000001128",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Avol",
+    "model": "10",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "21249",
+    "serial_total_len": 14,
+    "rid_tracking": "RID000002683",
+    "faa_status": "accepted",
+    "serial_range": "21249000000000-21249AAAAAAAAA"
+  },
+  {
+    "manufacturer": "BRINC",
+    "model": "LEMUR 2",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1914CL2D233900001",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000000691",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "BRINC",
+    "model": "RESPONDER",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1914CR1D243900001",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000002190",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Black Swift Technologies",
+    "model": "E2",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "20686E2",
+    "serial_total_len": 11,
+    "rid_tracking": "RID000002208",
+    "faa_status": "accepted",
+    "serial_range": "20686E20000-20686E29999"
+  },
+  {
+    "manufacturer": "Black Swift Technologies",
+    "model": "S1",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "20686S1",
+    "serial_total_len": 11,
+    "rid_tracking": "RID000001894",
+    "faa_status": "accepted",
+    "serial_range": "20686S10000-20686S19999"
+  },
+  {
+    "manufacturer": "Black Swift Technologies",
+    "model": "S2",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "20686S2",
+    "serial_total_len": 11,
+    "rid_tracking": "RID000001895",
+    "faa_status": "accepted",
+    "serial_range": "20686S20000-20686S29999"
+  },
+  {
+    "manufacturer": "Black Swift Technologies",
+    "model": "S3",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "20686S3",
+    "serial_total_len": 11,
+    "rid_tracking": "RID000001896",
+    "faa_status": "accepted",
+    "serial_range": "20686S30000-20686S39999"
+  },
+  {
+    "manufacturer": "Blackbird",
+    "model": "Block 4/5",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "19958NSD19001",
+    "serial_total_len": 13,
+    "rid_tracking": "RID000002625",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Blackswift Technologies",
+    "model": "S0 VTOL",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "20686S01",
+    "serial_total_len": 11,
+    "rid_tracking": "RID000002359",
+    "faa_status": "accepted",
+    "serial_range": "20686S01000-20686S01999"
+  },
+  {
+    "manufacturer": "BlueMark",
+    "model": "db100",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1787F01BM",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000000016",
+    "faa_status": "accepted",
+    "serial_range": "1787F01BM22010000000-1787F01BM50130000000"
+  },
+  {
+    "manufacturer": "BlueMark",
+    "model": "db120",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1787F04BM",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000000058",
+    "faa_status": "accepted",
+    "serial_range": "1787F04BM22010000000-1787F04BM50130000000"
+  },
+  {
+    "manufacturer": "BlueMark",
+    "model": "db121",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1787F05BM",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000000088",
+    "faa_status": "accepted",
+    "serial_range": "1787F05BM22010000000-1787F05BM50130000000"
+  },
+  {
+    "manufacturer": "BlueMark",
+    "model": "db121pcb",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1787F06BM",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000000089",
+    "faa_status": "accepted",
+    "serial_range": "1787F06BM22010000000-1787F06BM50130000000"
+  },
+  {
+    "manufacturer": "BlueMark",
+    "model": "db122fpv",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1787F07BM",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000000175",
+    "faa_status": "accepted",
+    "serial_range": "1787F07BM23010000000-1787F07BM50130000000"
+  },
+  {
+    "manufacturer": "BlueMark",
+    "model": "db150",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1787F0EBM",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000001962",
+    "faa_status": "accepted",
+    "serial_range": "1787F0EBM24060000000-1787F0EBM50130000000"
+  },
+  {
+    "manufacturer": "BlueMark",
+    "model": "db151",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1787F14BM",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000002218",
+    "faa_status": "accepted",
+    "serial_range": "1787F14BM24100000000-1787F14BM50130000000"
+  },
+  {
+    "manufacturer": "BlueMark",
+    "model": "db151pcb",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1787F12BM",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000002217",
+    "faa_status": "accepted",
+    "serial_range": "1787F12BM24100000000-1787F12BM50130000000"
+  },
+  {
+    "manufacturer": "BlueMark",
+    "model": "db152fpv",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1787F0CBM",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000001757",
+    "faa_status": "accepted",
+    "serial_range": "1787F0CBM24060000000-1787F0CBM50130000000"
+  },
+  {
+    "manufacturer": "BlueMark",
+    "model": "db153fpv",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1787F0DBM",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000001758",
+    "faa_status": "accepted",
+    "serial_range": "1787F0DBM24060000000-1787F0DBM50130000000"
+  },
+  {
+    "manufacturer": "BlueMark",
+    "model": "db154",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1787F11BM",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000002084",
+    "faa_status": "accepted",
+    "serial_range": "1787F11BM24110000000-1787F11BM50130000000"
+  },
+  {
+    "manufacturer": "Broadcast",
+    "model": "Module",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1935C4831B7018BDC",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000000678",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Broadcast Module",
+    "model": "EabloPilot Tag",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "2051FEABPT",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000001806",
+    "faa_status": "accepted",
+    "serial_range": "2051FEABPT0000000001-2051FEABPT9999999999"
+  },
+  {
+    "manufacturer": "Bwine",
+    "model": "B112",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "18757",
+    "serial_total_len": 12,
+    "rid_tracking": "RID000001753",
+    "faa_status": "accepted",
+    "serial_range": "187570000001-187571000000"
+  },
+  {
+    "manufacturer": "Bwine",
+    "model": "B112S",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "18757",
+    "serial_total_len": 12,
+    "rid_tracking": "RID000001950",
+    "faa_status": "accepted",
+    "serial_range": "187575000001-187576000000"
+  },
+  {
+    "manufacturer": "Bwine",
+    "model": "F7GB2",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1875BF7GB2000001",
+    "serial_total_len": 16,
+    "rid_tracking": "RID000000418",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Bwine",
+    "model": "F7GB3",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1875CF7GB3",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000002596",
+    "faa_status": "accepted",
+    "serial_range": "1875CF7GB30000001-1875CF7GB31000000"
+  },
+  {
+    "manufacturer": "Bwine",
+    "model": "F7GIM",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1875BF7GM",
+    "serial_total_len": 16,
+    "rid_tracking": "RID000001999",
+    "faa_status": "accepted",
+    "serial_range": "1875BF7GM0000001-1875BF7GM1000000"
+  },
+  {
+    "manufacturer": "Bwine",
+    "model": "F7GIM2",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1875CF7GM2",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000001711",
+    "faa_status": "accepted",
+    "serial_range": "1875CF7GM20000001-1875CF7GM21000000"
+  },
+  {
+    "manufacturer": "C100",
+    "model": "Block 1C",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "19346C11524",
+    "serial_total_len": 11,
+    "rid_tracking": "RID000000571",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "CHCNAV",
+    "model": "X500 Rotor UAV",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "2078F000",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000002525",
+    "faa_status": "accepted",
+    "serial_range": "2078F000000000000000-2078F000ZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "Caelone 01",
+    "model": "AUDAFV",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "2126F",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000002557",
+    "faa_status": "accepted",
+    "serial_range": "2126F000000000000001-2126FZZZZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "Camflite",
+    "model": "Ascent",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1871C00000000",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000000242",
+    "faa_status": "accepted",
+    "serial_range": "1871C000000007000-1871C000000008999"
+  },
+  {
+    "manufacturer": "Camflite",
+    "model": "Ascent",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1871CAUR00000",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000000242",
+    "faa_status": "accepted",
+    "serial_range": "1871CAUR000004000-1871CAUR000006000"
+  },
+  {
+    "manufacturer": "Camflite",
+    "model": "Ascent",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1871CASNT1000",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000000242",
+    "faa_status": "accepted",
+    "serial_range": "1871CASNT10007000-1871CASNT10009000"
+  },
+  {
+    "manufacturer": "Camflite",
+    "model": "Ascent",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1872CASNT0000",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000000242",
+    "faa_status": "accepted",
+    "serial_range": "1872CASNT00001000-1872CASNT00002000"
+  },
+  {
+    "manufacturer": "Camflite",
+    "model": "Ascent",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1871CASC00000",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000000242",
+    "faa_status": "accepted",
+    "serial_range": "1871CASC000001000-1871CASC000003999"
+  },
+  {
+    "manufacturer": "Camflite",
+    "model": "Aurora",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1871C00000000",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000000241",
+    "faa_status": "accepted",
+    "serial_range": "1871C000000007000-1871C000000008999"
+  },
+  {
+    "manufacturer": "Camflite",
+    "model": "Aurora SE",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1871C000000005",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000002448",
+    "faa_status": "accepted",
+    "serial_range": "1871C000000005000-1871C000000005999"
+  },
+  {
+    "manufacturer": "Camflite",
+    "model": "Aurora SE",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1871CAURSE000",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000002448",
+    "faa_status": "accepted",
+    "serial_range": "1871CAURSE0002000-1871CAURSE0004000"
+  },
+  {
+    "manufacturer": "Camflite",
+    "model": "CRD1",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1871C000000002000",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000000913",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Camflite",
+    "model": "CRD1-SE",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1871C00000000",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000002530",
+    "faa_status": "accepted",
+    "serial_range": "1871C000000006000-1871C000000007999"
+  },
+  {
+    "manufacturer": "Camflite",
+    "model": "CRD1-SE",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1871CCRDSE100",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000002530",
+    "faa_status": "accepted",
+    "serial_range": "1871CCRDSE1001000-1871CCRDSE1004999"
+  },
+  {
+    "manufacturer": "Camflite",
+    "model": "CRD1-SE",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1871CCRD1SE00",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000002530",
+    "faa_status": "accepted",
+    "serial_range": "1871CCRD1SE001000-1871CCRD1SE002000"
+  },
+  {
+    "manufacturer": "Camflite",
+    "model": "CRD1-SE",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1871CC",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000002530",
+    "faa_status": "accepted",
+    "serial_range": "1871CCARD10006000-1871CCRD100009000"
+  },
+  {
+    "manufacturer": "Censys Technologies",
+    "model": "Sentaero 5",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "171870423115",
+    "serial_total_len": 12,
+    "rid_tracking": "RID000002245",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Censys Technologies",
+    "model": "Sentaero 6",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "171871025111",
+    "serial_total_len": 12,
+    "rid_tracking": "RID000002565",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Ceres Air LLC",
+    "model": "C31",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "21578",
+    "serial_total_len": 13,
+    "rid_tracking": "RID000002630",
+    "faa_status": "accepted",
+    "serial_range": "2157800000000-21578ZZZZZZZZ"
+  },
+  {
+    "manufacturer": "Ceres Air LLC",
+    "model": "C6",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "215785308",
+    "serial_total_len": 13,
+    "rid_tracking": "RID000002645",
+    "faa_status": "accepted",
+    "serial_range": "2157853080000-215785308ZZZZ"
+  },
+  {
+    "manufacturer": "Cider Copter",
+    "model": "H10",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "191140000",
+    "serial_total_len": 9,
+    "rid_tracking": "RID000000356",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Cinnamon Drones",
+    "model": "RID Broadcast Module",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "2009A",
+    "serial_total_len": 15,
+    "rid_tracking": "RID000001183",
+    "faa_status": "accepted",
+    "serial_range": "2009A0000000000-2009AZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "Commaris",
+    "model": "SEEKER",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1787F03BM23070003218",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000001563",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Contixo Inc.",
+    "model": "F33",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "2146BF3300000000",
+    "serial_total_len": 16,
+    "rid_tracking": "RID000002509",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Coretronic Intelligent Robotics Corporation",
+    "model": "SIRAS",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1836FF1E01",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000000125",
+    "faa_status": "accepted",
+    "serial_range": "1836FF1E010000000000-1836FF1E01FFFFFFFFFF"
+  },
+  {
+    "manufacturer": "DIY-D LLC",
+    "model": "DIY-D ESP32-C3-MINI-1",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1925C000000000001",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000000405",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "AVATA",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F4QW",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000000008",
+    "faa_status": "accepted",
+    "serial_range": "1581F4QW000000000000-1581F4QWZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Agras T10",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F446",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000001163",
+    "faa_status": "accepted",
+    "serial_range": "1581F446000000000000-1581F446ZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Agras T100",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F8ZL",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000002576",
+    "faa_status": "accepted",
+    "serial_range": "1581F8ZL000000000000-1581F8ZLZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Agras T20P",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F574",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000001181",
+    "faa_status": "accepted",
+    "serial_range": "1581F574000000000000-1581F574ZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Agras T25P",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F836",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000002587",
+    "faa_status": "accepted",
+    "serial_range": "1581F836000000000000-1581F836ZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Agras T30",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F446",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000000038",
+    "faa_status": "accepted",
+    "serial_range": "1581F446000000000000-1581F446ZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Agras T40",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F574",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000000039",
+    "faa_status": "accepted",
+    "serial_range": "1581F574000000000000-1581F574ZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Agras T50 & T25",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F6BU",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000001594",
+    "faa_status": "accepted",
+    "serial_range": "1581F6BU000000000000-1581F6BUZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Agras T70P",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F8ZX",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000002579",
+    "faa_status": "accepted",
+    "serial_range": "1581F8ZX000000000000-1581F8ZXZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Air 2S",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F3YT",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000000007",
+    "faa_status": "accepted",
+    "serial_range": "1581F3YT000000000000-1581F3YTZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Air 3",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F6N8",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000000714",
+    "faa_status": "accepted",
+    "serial_range": "1581F6N8000000000000-1581F6N8ZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Air 3S",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F895",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000002046",
+    "faa_status": "accepted",
+    "serial_range": "1581F895000000000000-1581F895ZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Avata 2",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F6W8",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000001376",
+    "faa_status": "accepted",
+    "serial_range": "1581F6W8000000000000-1581F6W8ZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Avata 360 (DVN3XT)",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581FA8J",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000002651",
+    "faa_status": "accepted",
+    "serial_range": "1581FA8J000000000000-1581FA8JZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "DJI Avata 360 (DVN3NT)",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581FBLK",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000002650",
+    "faa_status": "accepted",
+    "serial_range": "1581FBLK000000000000-1581FBLKZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "FPV",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F37Q",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000000756",
+    "faa_status": "accepted",
+    "serial_range": "1581F37Q000000000000-1581F37QZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "FlyCart 100",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581FAN4",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000002620",
+    "faa_status": "accepted",
+    "serial_range": "1581FAN4000000000000-1581FAN4ZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "FlyCart 30",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F7C6",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000000760",
+    "faa_status": "accepted",
+    "serial_range": "1581F7C6000000000000-1581F7C6ZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Inspire 3",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F4Z4",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000000192",
+    "faa_status": "accepted",
+    "serial_range": "1581F4Z4000000000000-1581F4Z4ZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "M30",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F4BN",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000000011",
+    "faa_status": "accepted",
+    "serial_range": "1581F4BN000000000000-1581F4BNZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "M30 Dock version",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F5BL",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000000273",
+    "faa_status": "accepted",
+    "serial_range": "1581F5BL000000000000-1581F5BLZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "M300 RTK",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F1ZN",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000000021",
+    "faa_status": "accepted",
+    "serial_range": "1581F1ZN000000000000-1581F1ZNZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "M30T",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F5BK",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000000012",
+    "faa_status": "accepted",
+    "serial_range": "1581F5BK000000000000-1581F5BKZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "M30T (EU&KR)",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F62H",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000001136",
+    "faa_status": "accepted",
+    "serial_range": "1581F62H000000000000-1581F62HZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "M30T Dock version",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F5BM",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000000274",
+    "faa_status": "accepted",
+    "serial_range": "1581F5BM000000000000-1581F5BMZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "M350 RTK",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F6GK",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000000256",
+    "faa_status": "accepted",
+    "serial_range": "1581F6GK000000000000-1581F6GKZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "M3D",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F6QA",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000001166",
+    "faa_status": "accepted",
+    "serial_range": "1581F6QA000000000000-1581F6QAZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "M3E",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F5FH",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000000019",
+    "faa_status": "accepted",
+    "serial_range": "1581F5FH000000000000-1581F5FHZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "M3M",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F5FK",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000000057",
+    "faa_status": "accepted",
+    "serial_range": "1581F5FK000000000000-1581F5FKZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "M3T",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F5FJ",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000000020",
+    "faa_status": "accepted",
+    "serial_range": "1581F5FJ000000000000-1581F5FJZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "M3TA",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581FBEX",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000002584",
+    "faa_status": "accepted",
+    "serial_range": "1581FBEX000000000000-1581FBEXZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "M3TD",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F6Q8",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000001167",
+    "faa_status": "accepted",
+    "serial_range": "1581F6Q8000000000000-1581F6Q8ZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Matrice 400",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F8DB",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000002486",
+    "faa_status": "accepted",
+    "serial_range": "1581F8DB000000000000-1581F8DBZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Matrice 4D",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F8HH",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000002246",
+    "faa_status": "accepted",
+    "serial_range": "1581F8HH000000000000-1581F8HHZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Matrice 4E",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F7FV",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000002198",
+    "faa_status": "accepted",
+    "serial_range": "1581F7FV000000000000-1581F7FVZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Matrice 4T",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F7K3",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000002199",
+    "faa_status": "accepted",
+    "serial_range": "1581F7K3000000000000-1581F7K3ZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Matrice 4TD",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F8HG",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000002247",
+    "faa_status": "accepted",
+    "serial_range": "1581F8HG000000000000-1581F8HGZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Mavic 2 Enterprise Advanced",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F4GC",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000000753",
+    "faa_status": "accepted",
+    "serial_range": "1581F4GC000000000000-1581F4GCZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Mavic 2 Pro",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F163",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000000757",
+    "faa_status": "accepted",
+    "serial_range": "1581F163000000000000-1581F163ZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Mavic 2 Zoom",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F0M6",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000000758",
+    "faa_status": "accepted",
+    "serial_range": "1581F0M6000000000000-1581F0M6ZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Mavic 3",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F45T",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000000009",
+    "faa_status": "accepted",
+    "serial_range": "1581F45T000000000000-1581F45TZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Mavic 3 Cine",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F4QZ",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000000010",
+    "faa_status": "accepted",
+    "serial_range": "1581F4QZ000000000000-1581F4QZZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Mavic 3 Classic",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F67P",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000000041",
+    "faa_status": "accepted",
+    "serial_range": "1581F67P000000000000-1581F67PZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Mavic 3 Pro",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F67Q",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000000204",
+    "faa_status": "accepted",
+    "serial_range": "1581F67Q000000000000-1581F67QZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Mavic 3 Pro Cine",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F6MK",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000000205",
+    "faa_status": "accepted",
+    "serial_range": "1581F6MK000000000000-1581F6MKZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Mavic 4 Pro (512 GB)",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F986",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000002376",
+    "faa_status": "accepted",
+    "serial_range": "1581F986000000000000-1581F986ZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Mavic 4 Pro (64 GB)",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F8LQ",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000002375",
+    "faa_status": "accepted",
+    "serial_range": "1581F8LQ000000000000-1581F8LQZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Mavic Air 2 (MA2UE1N)",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F1WN",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000000754",
+    "faa_status": "accepted",
+    "serial_range": "1581F1WN000000000000-1581F1WNZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Mavic Air 2 (MA2UE3W)",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F3N3",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000000755",
+    "faa_status": "accepted",
+    "serial_range": "1581F3N3000000000000-1581F3N3ZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Mavic Pro Platinum",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F08Q3",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000000111",
+    "faa_status": "rescinded",
+    "serial_range": "1581F08Q300000000000-1581F08Q3FFFFFFFFFFF"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Mini 3",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F5YH",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000000062",
+    "faa_status": "accepted",
+    "serial_range": "1581F5YH000000000000-1581F5YHZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Mini 3 Pro",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F4XF",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000000001",
+    "faa_status": "accepted",
+    "serial_range": "1581F4XF000000000000-1581F4XFZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Mini 3 Pro",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F6L5",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000000001",
+    "faa_status": "accepted",
+    "serial_range": "1581F6L5000000000000-1581F6L5ZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Mini 4 Pro",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F6Z9",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000000713",
+    "faa_status": "accepted",
+    "serial_range": "1581F6Z9000000000000-1581F6Z9ZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Mini 5 Pro",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F9DE",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000002581",
+    "faa_status": "accepted",
+    "serial_range": "1581F9DE000000000000-1581F9DEZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Phantom 4 Pro V2.0",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F11V",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000000759",
+    "faa_status": "accepted",
+    "serial_range": "1581F11V000000000000-1581F11VZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DJI",
+    "model": "Phantom 4 RTK",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1581F0UY",
+    "serial_total_len": 20,
+    "mac_oui": [
+      52,
+      210,
+      98
+    ],
+    "rid_tracking": "RID000000752",
+    "faa_status": "accepted",
+    "serial_range": "1581F0UY000000000000-1581F0UYZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "DMR Technologies",
+    "model": "D313",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "2110F313",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000002395",
+    "faa_status": "accepted",
+    "serial_range": "2110F313000000000001-2110F313999999999999"
+  },
+  {
+    "manufacturer": "DMR Technologies",
+    "model": "D517",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "2110FD517",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000002465",
+    "faa_status": "accepted",
+    "serial_range": "2110FD51700000000001-2110FD51799999999999"
+  },
+  {
+    "manufacturer": "DMR Technologies",
+    "model": "Field Ranger X50",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "2110AX5024",
+    "serial_total_len": 15,
+    "rid_tracking": "RID000002272",
+    "faa_status": "accepted",
+    "serial_range": "2110AX502400001-2110AX5024ZZZZZ"
+  },
+  {
+    "manufacturer": "DeltaQuad",
+    "model": "Evo",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1862CE1G125130174",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000002365",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Draganfly",
+    "model": "Apex",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1808828A8B929",
+    "serial_total_len": 13,
+    "rid_tracking": "RID000002558",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Draganfly Innovations",
+    "model": "Commander 2",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "180889C78680C",
+    "serial_total_len": 13,
+    "rid_tracking": "RID000001179",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Draganfly Innovations",
+    "model": "Commander3 XL",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1808801825BA2",
+    "serial_total_len": 13,
+    "rid_tracking": "RID000000283",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Drone Defence",
+    "model": "AeroPing",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1796F001",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000000063",
+    "faa_status": "accepted",
+    "serial_range": "1796F001000000000000-1796F001FFFFFFFFFFFF"
+  },
+  {
+    "manufacturer": "Drone Volt",
+    "model": "Hercules 20",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1801BDV",
+    "serial_total_len": 16,
+    "rid_tracking": "RID000000083",
+    "faa_status": "accepted",
+    "serial_range": "1801BDV221200000-1801BDV501200000"
+  },
+  {
+    "manufacturer": "Drone-Clone Xperts",
+    "model": "LIMITLESS 4S",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1894BL4SDCX00000",
+    "serial_total_len": 16,
+    "rid_tracking": "RID000000583",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Drone-Clone Xperts",
+    "model": "LIMITLESS 5",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1894AL5DCX99950",
+    "serial_total_len": 15,
+    "rid_tracking": "RID000000715",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Drone-Clone Xperts",
+    "model": "RAZOR X",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1894DRAZRXDCX00000",
+    "serial_total_len": 18,
+    "rid_tracking": "RID000000675",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Dronetag",
+    "model": "BS",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1596F31",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000000257",
+    "faa_status": "accepted",
+    "serial_range": "1596F310000000000000-1596F31FFFFFFFFFFFFF"
+  },
+  {
+    "manufacturer": "Dronetag",
+    "model": "Beacon",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1596A34",
+    "serial_total_len": 15,
+    "rid_tracking": "RID000000045",
+    "faa_status": "accepted",
+    "serial_range": "1596A3400000000-1596A34FFFFFFFF"
+  },
+  {
+    "manufacturer": "Dronetag",
+    "model": "Beacon gen.2",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1596A30",
+    "serial_total_len": 15,
+    "rid_tracking": "RID000001121",
+    "faa_status": "accepted",
+    "serial_range": "1596A3000000000-1596A30FFFFFFFF"
+  },
+  {
+    "manufacturer": "Dronetag",
+    "model": "DRI",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1596F33",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000000252",
+    "faa_status": "accepted",
+    "serial_range": "1596F330000000000000-1596F33FFFFFFFFFFFFF"
+  },
+  {
+    "manufacturer": "Dronetag",
+    "model": "Mini",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1596F35",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000000025",
+    "faa_status": "accepted",
+    "serial_range": "1596F350000000000000-1596F35FFFFFFFFFFFFF"
+  },
+  {
+    "manufacturer": "Dunlevy Consulting",
+    "model": "Angel 1",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "21239ESA1",
+    "serial_total_len": 14,
+    "rid_tracking": "RID000002537",
+    "faa_status": "accepted",
+    "serial_range": "21239ESA100000-21239ESA199999"
+  },
+  {
+    "manufacturer": "Dunlevy Consulting",
+    "model": "Angel 2",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "21239ESA2",
+    "serial_total_len": 14,
+    "rid_tracking": "RID000002613",
+    "faa_status": "accepted",
+    "serial_range": "21239ESA200000-21239ESA299999"
+  },
+  {
+    "manufacturer": "ELIOS 3 UAV",
+    "model": "107000",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1826EE300S922390042",
+    "serial_total_len": 19,
+    "rid_tracking": "RID000000299",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "EVO Lite",
+    "model": "MDXM",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1748CLTC82",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000000026",
+    "faa_status": "accepted",
+    "serial_range": "1748CLTC822390001-1748CLTC825529999"
+  },
+  {
+    "manufacturer": "EVO Lite+",
+    "model": "MDXM2",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1748CLTC82",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000000027",
+    "faa_status": "accepted",
+    "serial_range": "1748CLTC822390001-1748CLTC825529999"
+  },
+  {
+    "manufacturer": "EXO",
+    "model": "Blackhawk 3 PRO",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1895FBC0000000000001",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000000535",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "EXO",
+    "model": "Mini Pro+",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1895FBF0000000000001",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000000722",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "EXO",
+    "model": "X7 Ranger Plus",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1895BX7R00000000",
+    "serial_total_len": 16,
+    "rid_tracking": "RID000000524",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Elsight Ltd.",
+    "model": "HNF4W",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "19027N000001",
+    "serial_total_len": 12,
+    "rid_tracking": "RID000000363",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Event38 Unmanned Systems",
+    "model": "E400",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "18077400",
+    "serial_total_len": 12,
+    "rid_tracking": "RID000000168",
+    "faa_status": "accepted",
+    "serial_range": "180774000001-180774009999"
+  },
+  {
+    "manufacturer": "Event38 Unmanned Systems",
+    "model": "E455",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "18077455",
+    "serial_total_len": 12,
+    "rid_tracking": "RID000000222",
+    "faa_status": "accepted",
+    "serial_range": "180774550001-180774559999"
+  },
+  {
+    "manufacturer": "Exedy Drones",
+    "model": "AYRE CX",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "2125FD110EX2",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000002569",
+    "faa_status": "accepted",
+    "serial_range": "2125FD110EX250400001-2125FD110EX260100070"
+  },
+  {
+    "manufacturer": "Exedy Drones",
+    "model": "AYRE CX",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "2125FD110EX",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000002569",
+    "faa_status": "accepted",
+    "serial_range": "2125FD110EX250400001-2125FD110EX341299999"
+  },
+  {
+    "manufacturer": "Explorer",
+    "model": "1.3",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "18165E1246",
+    "serial_total_len": 10,
+    "rid_tracking": "RID000000660",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "FACEGLE",
+    "model": "E99",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1990AE990000000",
+    "serial_total_len": 15,
+    "rid_tracking": "RID000001030",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "FIMI X8 SE 2022 Drone",
+    "model": "FMWRJ03A8",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1971F3A851131",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000001343",
+    "faa_status": "accepted",
+    "serial_range": "1971F3A8511310000001-1971F3A8511319999999"
+  },
+  {
+    "manufacturer": "FIMI X8 SE 2022 Drone",
+    "model": "FMWRJ03A8",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1971F3A85113",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000001343",
+    "faa_status": "accepted",
+    "serial_range": "1971F3A8511300000001-1971F3A8511399999999"
+  },
+  {
+    "manufacturer": "FIMI X8 Tele Drone",
+    "model": "FMWRJ04A1",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1971F4A19113",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000001934",
+    "faa_status": "accepted",
+    "serial_range": "1971F4A1911300000001-1971F4A1911399999999"
+  },
+  {
+    "manufacturer": "Field",
+    "model": "Explorer E30",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "18167E301000",
+    "serial_total_len": 12,
+    "rid_tracking": "RID000000744",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Field",
+    "model": "Urban Explorer",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "18167UEX1000",
+    "serial_total_len": 12,
+    "rid_tracking": "RID000000797",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Flightwave",
+    "model": "Edge 130",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "18797MP10493",
+    "serial_total_len": 12,
+    "rid_tracking": "RID000000420",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Flytrex",
+    "model": "FTX-M600P",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1886FFTXM600P0001000",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000000491",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Flytrex",
+    "model": "SKY II",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1886BSKY20002000",
+    "serial_total_len": 16,
+    "rid_tracking": "RID000001411",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Fotokite",
+    "model": "Sigma",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1898B003000G001B",
+    "serial_total_len": 16,
+    "rid_tracking": "RID000001124",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "FrSky",
+    "model": "FrID",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1973FR1M2K23",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000001575",
+    "faa_status": "accepted",
+    "serial_range": "1973FR1M2K2300000001-1973FR1M2K2399999999"
+  },
+  {
+    "manufacturer": "Freefly",
+    "model": "Alta X",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "181792",
+    "serial_total_len": 14,
+    "mac_oui": [
+      236,
+      113,
+      94
+    ],
+    "rid_tracking": "RID000001242",
+    "faa_status": "accepted",
+    "serial_range": "18179200000000-181792FFFFFFFF"
+  },
+  {
+    "manufacturer": "Freefly",
+    "model": "Alta X Gen2",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "18179132",
+    "serial_total_len": 14,
+    "mac_oui": [
+      236,
+      113,
+      94
+    ],
+    "rid_tracking": "RID000002659",
+    "faa_status": "accepted",
+    "serial_range": "18179132000000-18179132FFFFFF"
+  },
+  {
+    "manufacturer": "Freefly",
+    "model": "Astro",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "18179131",
+    "serial_total_len": 14,
+    "mac_oui": [
+      236,
+      113,
+      94
+    ],
+    "rid_tracking": "RID000001240",
+    "faa_status": "accepted",
+    "serial_range": "18179131000000-18179131FFFFFF"
+  },
+  {
+    "manufacturer": "Freefly",
+    "model": "Astro",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1817913",
+    "serial_total_len": 14,
+    "mac_oui": [
+      236,
+      113,
+      94
+    ],
+    "rid_tracking": "RID000001240",
+    "faa_status": "accepted",
+    "serial_range": "18179130000000-1817913FFFFFFF"
+  },
+  {
+    "manufacturer": "Freefly",
+    "model": "Remote ID Upgrade Kit (Alta X)",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "181793",
+    "serial_total_len": 14,
+    "mac_oui": [
+      236,
+      113,
+      94
+    ],
+    "rid_tracking": "RID000001225",
+    "faa_status": "accepted",
+    "serial_range": "18179300000000-181793FFFFFFFF"
+  },
+  {
+    "manufacturer": "Gleesfun",
+    "model": "G115",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "20557",
+    "serial_total_len": 12,
+    "rid_tracking": "RID000001915",
+    "faa_status": "accepted",
+    "serial_range": "205570000001-205571000000"
+  },
+  {
+    "manufacturer": "Gleesfun",
+    "model": "G115S",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "20557",
+    "serial_total_len": 12,
+    "rid_tracking": "RID000001949",
+    "faa_status": "accepted",
+    "serial_range": "205575000001-205576000000"
+  },
+  {
+    "manufacturer": "Gleesfun",
+    "model": "G11PRO",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "2055BG11P",
+    "serial_total_len": 16,
+    "rid_tracking": "RID000002100",
+    "faa_status": "accepted",
+    "serial_range": "2055BG11P0000001-2055BG11P1000000"
+  },
+  {
+    "manufacturer": "Gleesfun",
+    "model": "G11PRO2",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "2055CG11P2",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000002140",
+    "faa_status": "accepted",
+    "serial_range": "2055CG11P20000001-2055CG11P21000000"
+  },
+  {
+    "manufacturer": "Global Drone",
+    "model": "GD98",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "2054AGD98000000",
+    "serial_total_len": 15,
+    "rid_tracking": "RID000001826",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Global Drone",
+    "model": "GD98MAX",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "2054DGD98MAX000000",
+    "serial_total_len": 18,
+    "rid_tracking": "RID000002099",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Harris Aerial",
+    "model": "Carrier H6",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "18136H6E",
+    "serial_total_len": 11,
+    "rid_tracking": "RID000000073",
+    "faa_status": "accepted",
+    "serial_range": "18136H6E120-18136H6E999"
+  },
+  {
+    "manufacturer": "Harris Aerial",
+    "model": "Carrier H8E",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "18136H8E",
+    "serial_total_len": 11,
+    "rid_tracking": "RID000000074",
+    "faa_status": "accepted",
+    "serial_range": "18136H8E025-18136H8E500"
+  },
+  {
+    "manufacturer": "Heilongjiang Huida Technology Co.",
+    "model": "3WWDZ-U70A",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "2129853",
+    "serial_total_len": 13,
+    "rid_tracking": "RID000002412",
+    "faa_status": "accepted",
+    "serial_range": "2129853000000-2129853ZZZZZZ"
+  },
+  {
+    "manufacturer": "Holy Stone",
+    "model": "HS600",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1865AHS60000001",
+    "serial_total_len": 15,
+    "mac_oui": [
+      0,
+      12,
+      191
+    ],
+    "rid_tracking": "RID000000327",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Holy Stone",
+    "model": "HS600D",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1865CHS600D",
+    "serial_total_len": 17,
+    "mac_oui": [
+      0,
+      12,
+      191
+    ],
+    "rid_tracking": "RID000001175",
+    "faa_status": "accepted",
+    "serial_range": "1865CHS600D000000-1865CHS600D999999"
+  },
+  {
+    "manufacturer": "Holy Stone",
+    "model": "HS700E",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1865C000003000000",
+    "serial_total_len": 17,
+    "mac_oui": [
+      0,
+      12,
+      191
+    ],
+    "rid_tracking": "RID000000458",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Holy Stone",
+    "model": "HS720",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1865C000000000000",
+    "serial_total_len": 17,
+    "mac_oui": [
+      0,
+      12,
+      191
+    ],
+    "rid_tracking": "RID000000472",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Holy Stone",
+    "model": "HS720E",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1865C000001000000",
+    "serial_total_len": 17,
+    "mac_oui": [
+      0,
+      12,
+      191
+    ],
+    "rid_tracking": "RID000000462",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Holy Stone",
+    "model": "HS720G",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1865CHS720G000000",
+    "serial_total_len": 17,
+    "mac_oui": [
+      0,
+      12,
+      191
+    ],
+    "rid_tracking": "RID000000411",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Holy Stone",
+    "model": "HS720R",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1865C000002000000",
+    "serial_total_len": 17,
+    "mac_oui": [
+      0,
+      12,
+      191
+    ],
+    "rid_tracking": "RID000000402",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Holy Stone",
+    "model": "HS790",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1865F113",
+    "serial_total_len": 20,
+    "mac_oui": [
+      0,
+      12,
+      191
+    ],
+    "rid_tracking": "RID000002381",
+    "faa_status": "accepted",
+    "serial_range": "1865F113000000000000-1865F113999999999999"
+  },
+  {
+    "manufacturer": "Holy Stone",
+    "model": "HS920",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1865CHS920",
+    "serial_total_len": 17,
+    "mac_oui": [
+      0,
+      12,
+      191
+    ],
+    "rid_tracking": "RID000001150",
+    "faa_status": "accepted",
+    "serial_range": "1865CHS9200000000-1865CHS9209999999"
+  },
+  {
+    "manufacturer": "Holy Stone",
+    "model": "HSRID01",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "18656A00000",
+    "serial_total_len": 11,
+    "mac_oui": [
+      0,
+      12,
+      191
+    ],
+    "rid_tracking": "RID000000290",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Holy Stone",
+    "model": "HSRID02",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1865CBM02",
+    "serial_total_len": 17,
+    "mac_oui": [
+      0,
+      12,
+      191
+    ],
+    "rid_tracking": "RID000001281",
+    "faa_status": "accepted",
+    "serial_range": "1865CBM0200000000-1865CBM0299999999"
+  },
+  {
+    "manufacturer": "Holy Stone",
+    "model": "HSRID03",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1865F10X",
+    "serial_total_len": 20,
+    "mac_oui": [
+      0,
+      12,
+      191
+    ],
+    "rid_tracking": "RID000002329",
+    "faa_status": "accepted",
+    "serial_range": "1865F10X000000000000-1865F10X999999999999"
+  },
+  {
+    "manufacturer": "Holyton",
+    "model": "HT60",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "2003AHT60",
+    "serial_total_len": 15,
+    "rid_tracking": "RID000001611",
+    "faa_status": "accepted",
+    "serial_range": "2003AHT60000001-2003AHT60999999"
+  },
+  {
+    "manufacturer": "Holyton",
+    "model": "HT65",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "2003F100",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000002437",
+    "faa_status": "accepted",
+    "serial_range": "2003F100000000000000-2003F100999999999999"
+  },
+  {
+    "manufacturer": "Holyton",
+    "model": "HT70",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "2003AHT70",
+    "serial_total_len": 15,
+    "rid_tracking": "RID000001612",
+    "faa_status": "accepted",
+    "serial_range": "2003AHT70000001-2003AHT70999999"
+  },
+  {
+    "manufacturer": "Hoverfly Technologies",
+    "model": "Sentry/Spectre",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1867F18001000",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000000181",
+    "faa_status": "accepted",
+    "serial_range": "1867F180010003500000-1867F180010005750000"
+  },
+  {
+    "manufacturer": "Hylio",
+    "model": "AG-210",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "179060802",
+    "serial_total_len": 11,
+    "rid_tracking": "RID000000118",
+    "faa_status": "accepted",
+    "serial_range": "17906080201-17906080250"
+  },
+  {
+    "manufacturer": "Hylio",
+    "model": "AG-210",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "17906080",
+    "serial_total_len": 11,
+    "rid_tracking": "RID000001864",
+    "faa_status": "accepted",
+    "serial_range": "17906080401-17906080800"
+  },
+  {
+    "manufacturer": "Hylio",
+    "model": "AG-216",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "179060902",
+    "serial_total_len": 11,
+    "rid_tracking": "RID000000119",
+    "faa_status": "accepted",
+    "serial_range": "17906090201-17906090250"
+  },
+  {
+    "manufacturer": "Hylio",
+    "model": "AG-216",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "17906090",
+    "serial_total_len": 11,
+    "rid_tracking": "RID000001865",
+    "faa_status": "accepted",
+    "serial_range": "17906090401-17906090800"
+  },
+  {
+    "manufacturer": "Hylio",
+    "model": "AG-230",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "179061002",
+    "serial_total_len": 11,
+    "rid_tracking": "RID000000120",
+    "faa_status": "accepted",
+    "serial_range": "17906100201-17906100250"
+  },
+  {
+    "manufacturer": "Hylio",
+    "model": "AG-230",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "17906100",
+    "serial_total_len": 11,
+    "rid_tracking": "RID000001866",
+    "faa_status": "accepted",
+    "serial_range": "17906100401-17906100800"
+  },
+  {
+    "manufacturer": "Hylio",
+    "model": "AG-272",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "179060702",
+    "serial_total_len": 11,
+    "rid_tracking": "RID000000121",
+    "faa_status": "accepted",
+    "serial_range": "17906070201-17906070250"
+  },
+  {
+    "manufacturer": "Hylio",
+    "model": "AG-272",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "17906070",
+    "serial_total_len": 11,
+    "rid_tracking": "RID000001867",
+    "faa_status": "accepted",
+    "serial_range": "17906070401-17906070800"
+  },
+  {
+    "manufacturer": "Hylio",
+    "model": "ARES BLUE",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "17906150",
+    "serial_total_len": 11,
+    "rid_tracking": "RID000002680",
+    "faa_status": "accepted",
+    "serial_range": "17906150001-17906150500"
+  },
+  {
+    "manufacturer": "Hylio",
+    "model": "HYL-150",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "17906110",
+    "serial_total_len": 11,
+    "rid_tracking": "RID000002231",
+    "faa_status": "accepted",
+    "serial_range": "17906110101-17906110900"
+  },
+  {
+    "manufacturer": "Inspired Flight",
+    "model": "IF1200A",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "17915",
+    "serial_total_len": 10,
+    "rid_tracking": "RID000000054",
+    "faa_status": "accepted",
+    "serial_range": "1791553001-1791560000"
+  },
+  {
+    "manufacturer": "Inspired Flight",
+    "model": "IF800",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "179158",
+    "serial_total_len": 10,
+    "rid_tracking": "RID000001511",
+    "faa_status": "accepted",
+    "serial_range": "1791580000-1791581000"
+  },
+  {
+    "manufacturer": "LISHI",
+    "model": "X38",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1943EX38HK22",
+    "serial_total_len": 19,
+    "rid_tracking": "RID000001142",
+    "faa_status": "accepted",
+    "serial_range": "1943EX38HK220000001-1943EX38HK229999999"
+  },
+  {
+    "manufacturer": "Leica Geosystems AG",
+    "model": "BLK2FLY",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "17207",
+    "serial_total_len": 12,
+    "rid_tracking": "RID000000087",
+    "faa_status": "accepted",
+    "serial_range": "172073000000-172074000000"
+  },
+  {
+    "manufacturer": "Light Quadcopter UAV",
+    "model": "GDU-S200",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1968FS20S200",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000001955",
+    "faa_status": "accepted",
+    "serial_range": "1968FS20S20000000001-1968FS20S200ZZZZZZZZ"
+  },
+  {
+    "manufacturer": "Light Quadcopter UAV",
+    "model": "GDU-S200",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1968FS20S20",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000001955",
+    "faa_status": "accepted",
+    "serial_range": "1968FS20S20000000001-1968FS20S20ZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "Light Quadcopter UAV",
+    "model": "S220",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1968FS22S220",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000002268",
+    "faa_status": "accepted",
+    "serial_range": "1968FS22S22000000001-1968FS22S220ZZZZZZZZ"
+  },
+  {
+    "manufacturer": "Light Quadcopter UAV",
+    "model": "S220",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1968FS22S22",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000002268",
+    "faa_status": "accepted",
+    "serial_range": "1968FS22S22000000001-1968FS22S22ZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "Light Quadcopter UAV",
+    "model": "S220 Pro",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1968FS22220P",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000002269",
+    "faa_status": "accepted",
+    "serial_range": "1968FS22220P00000001-1968FS22220PZZZZZZZZ"
+  },
+  {
+    "manufacturer": "Light Quadcopter UAV",
+    "model": "S220 Pro",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1968FS22220",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000002269",
+    "faa_status": "accepted",
+    "serial_range": "1968FS22220000000001-1968FS22220ZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "Lucid Bots",
+    "model": "Sherpa",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1877ESHP23C1CD01357",
+    "serial_total_len": 19,
+    "rid_tracking": "RID000000570",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Lumenier",
+    "model": "RID",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1972C",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000001464",
+    "faa_status": "accepted",
+    "serial_range": "1972C000000000000-1972CFFFFFFFFFFFF"
+  },
+  {
+    "manufacturer": "Matternet",
+    "model": "M2 Block 2",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "18106M22064",
+    "serial_total_len": 11,
+    "rid_tracking": "RID000000337",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Meteodrone",
+    "model": "MM-670",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1901EMD0256860801SN",
+    "serial_total_len": 19,
+    "rid_tracking": "RID000000820",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "MicroFlight Inc",
+    "model": "DB130 UAS Beacon",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "19089MF0100000",
+    "serial_total_len": 14,
+    "rid_tracking": "RID000000738",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Microdrones",
+    "model": "EasyOne",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1644FMD4E1VA0000",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000000138",
+    "faa_status": "accepted",
+    "serial_range": "1644FMD4E1VA00000001-1644FMD4E1VA00009999"
+  },
+  {
+    "manufacturer": "Microdrones",
+    "model": "EasyOne NDAA",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1644FMD4E1VA00010",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000001112",
+    "faa_status": "accepted",
+    "serial_range": "1644FMD4E1VA00010001-1644FMD4E1VA00010999"
+  },
+  {
+    "manufacturer": "Microdrones",
+    "model": "md4-1000",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1644FMD4100000007",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000000003",
+    "faa_status": "accepted",
+    "serial_range": "1644FMD4100000007004-1644FMD4100000007504"
+  },
+  {
+    "manufacturer": "Microdrones",
+    "model": "md4-3000",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1644FMD4300000001",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000000004",
+    "faa_status": "accepted",
+    "serial_range": "1644FMD4300000001234-1644FMD4300000001334"
+  },
+  {
+    "manufacturer": "NewBeeDrone",
+    "model": "BeeID",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "2071F",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000001995",
+    "faa_status": "accepted",
+    "serial_range": "2071F000000000000000-2071FZZZZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "Nokia",
+    "model": "P591013",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1984BL1220703731",
+    "serial_total_len": 16,
+    "rid_tracking": "RID000002622",
+    "faa_status": "accepted"
   },
   {
     "manufacturer": "Parrot",
-    "model": "Anafi USA",
+    "model": "ANAFI Ai",
     "ua_type": 2,
     "id_type": 1,
-    "serial_prefix": "PI040",
+    "serial_prefix": "1588E040452",
+    "serial_total_len": 19,
+    "mac_oui": [
+      144,
+      58,
+      230
+    ],
+    "rid_tracking": "RID000000067",
+    "faa_status": "accepted",
+    "serial_range": "1588E040452AA000001-1588E040452ZZ999999"
+  },
+  {
+    "manufacturer": "Parrot",
+    "model": "ANAFI USA",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1588E040505",
+    "serial_total_len": 19,
+    "mac_oui": [
+      144,
+      58,
+      230
+    ],
+    "rid_tracking": "RID000000068",
+    "faa_status": "accepted",
+    "serial_range": "1588E040505AA000001-1588E040505ZZ999999"
+  },
+  {
+    "manufacturer": "Parrot",
+    "model": "PARROT ANAFI UKR GOV",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1588E040465",
+    "serial_total_len": 19,
+    "mac_oui": [
+      144,
+      58,
+      230
+    ],
+    "rid_tracking": "RID000002663",
+    "faa_status": "accepted",
+    "serial_range": "1588E040465AA000001-1588E040465ZZ999999"
+  },
+  {
+    "manufacturer": "Percepto",
+    "model": "AirMax",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1701ASPR",
+    "serial_total_len": 15,
+    "rid_tracking": "RID000001189",
+    "faa_status": "accepted",
+    "serial_range": "1701ASPR0000000-1701ASPRXXXXXXX"
+  },
+  {
+    "manufacturer": "Percepto",
+    "model": "AirMax",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1701DSPR",
+    "serial_total_len": 18,
+    "rid_tracking": "RID000001170",
+    "faa_status": "accepted",
+    "serial_range": "1701DSPR00000000FL-1701DSPRXXXXXXXXFL"
+  },
+  {
+    "manufacturer": "Percepto",
+    "model": "AirMax OGI",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1701AGAS",
+    "serial_total_len": 15,
+    "rid_tracking": "RID000001190",
+    "faa_status": "accepted",
+    "serial_range": "1701AGAS0000000-1701AGASXXXXXXX"
+  },
+  {
+    "manufacturer": "Percepto",
+    "model": "AirMax OGI",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1701DGAS",
+    "serial_total_len": 18,
+    "rid_tracking": "RID000001172",
+    "faa_status": "accepted",
+    "serial_range": "1701DGAS00000000FL-1701DGASXXXXXXXXFL"
+  },
+  {
+    "manufacturer": "Percepto AirMax",
+    "model": "OGI",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1701DGAS00120623PR",
+    "serial_total_len": 18,
+    "rid_tracking": "RID000000601",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Percepto AirMax",
+    "model": "Percepto AirMax",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1701DSPR00841120PR",
+    "serial_total_len": 18,
+    "rid_tracking": "RID000000376",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Percepto AirMax",
+    "model": "Percepto AirMax OGI",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1701DGAS00100123PR",
+    "serial_total_len": 18,
+    "rid_tracking": "RID000001066",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Percepto AirMax",
+    "model": "Percepto AirMax OGI, Percepto Airmax",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1701DGAS00050822PR",
+    "serial_total_len": 18,
+    "rid_tracking": "RID000000373",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Phoenix UAS",
+    "model": "mRID",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1961FA00000000000000",
     "serial_total_len": 20,
-    "eu_category": 1,
-    "eu_class": 2,
-    "classification_region": 1,
-    "self_id_desc": "Recreational",
-    "eu_op_prefix": "FRA",
-    "mac_oui": [144, 58, 230]
+    "rid_tracking": "RID000000679",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Pierce Aerospace",
+    "model": "B1",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1893FB10000",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000000317",
+    "faa_status": "accepted",
+    "serial_range": "1893FB10000000000000-1893FB10000ZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "Potensic",
+    "model": "ATOM 2",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1910F14",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000002237",
+    "faa_status": "accepted",
+    "serial_range": "1910F140000000000000-1910F14ZZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "Potensic",
+    "model": "ATOM 2",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1910F",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000002237",
+    "faa_status": "accepted",
+    "serial_range": "1910F000000000000000-1910FZZZZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "Potensic",
+    "model": "RID-916",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1910F916",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000001125",
+    "faa_status": "accepted",
+    "serial_range": "1910F916000000000000-1910F916ZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "PrecisionVision",
+    "model": "PV40X",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1937511400",
+    "serial_total_len": 10,
+    "rid_tracking": "RID000000525",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "PrecisionVision 100X",
+    "model": "PV100X",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "19375",
+    "serial_total_len": 10,
+    "rid_tracking": "RID000002572",
+    "faa_status": "accepted",
+    "serial_range": "1937510000-1937599999"
+  },
+  {
+    "manufacturer": "Pyka",
+    "model": "Pelican",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "16056PS0030",
+    "serial_total_len": 11,
+    "rid_tracking": "RID000001127",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Pyka",
+    "model": "Pelican Cargo",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "16056PC0002",
+    "serial_total_len": 11,
+    "rid_tracking": "RID000002345",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Quadcopter",
+    "model": "S400E",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1968FS40GDE2",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000001314",
+    "faa_status": "accepted",
+    "serial_range": "1968FS40GDE24A100001-1968FS40GDE25ZZZZZZZ"
+  },
+  {
+    "manufacturer": "Quadcopter",
+    "model": "S400E",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1968FS40S40",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000001314",
+    "faa_status": "accepted",
+    "serial_range": "1968FS40S40000000001-1968FS40S40ZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "Quantum-Systems",
+    "model": "Trinity R10",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1656DTYR10MBD00001",
+    "serial_total_len": 18,
+    "rid_tracking": "RID000000547",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Quantum-Systems",
+    "model": "Trinity R14",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1656DTYR14MBD00001",
+    "serial_total_len": 18,
+    "rid_tracking": "RID000000540",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Quantum-Systems",
+    "model": "Trinity R6",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1656DTYR06MBD00001",
+    "serial_total_len": 18,
+    "rid_tracking": "RID000000599",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Quantum-Systems",
+    "model": "Trinity R7",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1656DTYR07MBD00001",
+    "serial_total_len": 18,
+    "rid_tracking": "RID000000598",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Quantum-Systems",
+    "model": "Trinity R8",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1656DTYR08MBD00001",
+    "serial_total_len": 18,
+    "rid_tracking": "RID000000597",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Rainmaker",
+    "model": "Elijah",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "2160BV2EL",
+    "serial_total_len": 16,
+    "rid_tracking": "RID000002607",
+    "faa_status": "accepted",
+    "serial_range": "2160BV2EL015RA1N-2160BV2EL999RA1N"
+  },
+  {
+    "manufacturer": "RigiTech",
+    "model": "Eiger",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "16988ER0",
+    "serial_total_len": 13,
+    "rid_tracking": "RID000001218",
+    "faa_status": "accepted",
+    "serial_range": "16988ER020000-16988ER039999"
+  },
+  {
+    "manufacturer": "Ruko",
+    "model": "F11",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "18699F11000001",
+    "serial_total_len": 14,
+    "rid_tracking": "RID000000287",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Ruko",
+    "model": "F11GIM",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1869BF11GM000001",
+    "serial_total_len": 16,
+    "rid_tracking": "RID000000521",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Ruko",
+    "model": "F11GIM2",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1869CF11GM2017587",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000000251",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Ruko",
+    "model": "F11GIM3",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1869CF11GM3",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000001696",
+    "faa_status": "accepted",
+    "serial_range": "1869CF11GM3000001-1869CF11GM3100000"
+  },
+  {
+    "manufacturer": "Ruko",
+    "model": "F11GIM3",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1869CF11GM",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000001696",
+    "faa_status": "accepted",
+    "serial_range": "1869CF11GM3000001-1869CF11GM4000000"
+  },
+  {
+    "manufacturer": "Ruko",
+    "model": "F11PRO",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1869AF11P000001",
+    "serial_total_len": 15,
+    "rid_tracking": "RID000000288",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Ruko",
+    "model": "F11PRO 2",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1869BF11P2000001",
+    "serial_total_len": 16,
+    "rid_tracking": "RID000000683",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Ruko",
+    "model": "F11PRO 3",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1869CF11P3",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000001709",
+    "faa_status": "accepted",
+    "serial_range": "1869CF11P30000001-1869CF11P31000000"
+  },
+  {
+    "manufacturer": "Ruko",
+    "model": "R111",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1869AR111000001",
+    "serial_total_len": 15,
+    "rid_tracking": "RID000000506",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Ruko",
+    "model": "R111S",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "18697",
+    "serial_total_len": 12,
+    "rid_tracking": "RID000001939",
+    "faa_status": "accepted",
+    "serial_range": "186975000001-186976000000"
+  },
+  {
+    "manufacturer": "Ruko",
+    "model": "U11GIM2",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1869CU11GM2000001",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000000626",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Ruko",
+    "model": "U11PRO",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1869AU11P000001",
+    "serial_total_len": 15,
+    "rid_tracking": "RID000000286",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Ruko",
+    "model": "U11PRO 2",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1869BU11P2000001",
+    "serial_total_len": 16,
+    "rid_tracking": "RID000000686",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Ruko",
+    "model": "U11PRO2",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1869CU11PR2",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000002107",
+    "faa_status": "accepted",
+    "serial_range": "1869CU11PR2000001-1869CU11PR2100000"
+  },
+  {
+    "manufacturer": "Ruko",
+    "model": "U11S",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1869AU11S000001",
+    "serial_total_len": 15,
+    "rid_tracking": "RID000000285",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "SHANGHENG",
+    "model": "AE86 Pro Max",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "2021CAE86PM067040",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000001622",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "SJRC",
+    "model": "BTM001",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "18929BTA088617",
+    "serial_total_len": 14,
+    "rid_tracking": "RID000001151",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "SJRC",
+    "model": "F11 4K PRO",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1892AF110000001",
+    "serial_total_len": 15,
+    "rid_tracking": "RID000000414",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "SJRC",
+    "model": "F11 S2 PRO",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1892CF11S2P000001",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000002012",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "SJRC",
+    "model": "F11 S3 PRO",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1892CF11S3P000001",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000002013",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "SJRC",
+    "model": "F11s 4K PRO",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1892CF11S23700001",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000000394",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "SJRC",
+    "model": "F11s 4K PRO+",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1892CF11S1P000001",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000001861",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "SJRC",
+    "model": "F22 4K PRO",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1892CF22A23800001",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000000492",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "SJRC",
+    "model": "F22 S2 PRO+",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1892CF22BS3896573",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000001564",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "SJRC",
+    "model": "F22 S3 PRO",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1892CF22DS3840419",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000001710",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "SJRC",
+    "model": "F22s 4K PRO",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1892CF22B23700001",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000000379",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "SJRC",
+    "model": "F5s PRO",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1892CF5SA00000001",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000000473",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "SJRC",
+    "model": "F5s Pro+",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1892CF5SP00099922",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000000422",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "SJRC",
+    "model": "F7 4K PRO",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1892BF7A23800000",
+    "serial_total_len": 16,
+    "rid_tracking": "RID000000413",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "SKYFISH",
+    "model": "M4",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1949A0000M49967",
+    "serial_total_len": 15,
+    "rid_tracking": "RID000000702",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "SKYFISH",
+    "model": "M6",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1949A0000M60000",
+    "serial_total_len": 15,
+    "rid_tracking": "RID000000703",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "SKYFISH",
+    "model": "OSPREY",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1949A0SPREY",
+    "serial_total_len": 15,
+    "rid_tracking": "RID000002105",
+    "faa_status": "accepted",
+    "serial_range": "1949A0SPREY0000-1949A0SPREY9999"
+  },
+  {
+    "manufacturer": "SPECTA",
+    "model": "AIR",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1939F83Z",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000001140",
+    "faa_status": "accepted",
+    "serial_range": "1939F83Z000000000000-1939F83ZZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "Sentera",
+    "model": "PHX",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1798F113240000009945",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000000296",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "ShenZhen C-Fly Intelligent Technology Co.",
+    "model": "DF-BLE-A",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1904C000000000000",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000000569",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "SkyRanger / SkyRaider",
+    "model": "R70 / R80D",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1767CSRH401356662",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000000191",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "SkySpecs",
+    "model": "Foresight V1",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1969BFS000000",
+    "serial_total_len": 16,
+    "rid_tracking": "RID000001633",
+    "faa_status": "accepted",
+    "serial_range": "1969BFS000000000-1969BFS000000999"
+  },
+  {
+    "manufacturer": "SkySpecs",
+    "model": "Foresight V2",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1969BFS2",
+    "serial_total_len": 16,
+    "rid_tracking": "RID000001810",
+    "faa_status": "accepted",
+    "serial_range": "1969BFS200000000-1969BFS299999999"
+  },
+  {
+    "manufacturer": "SkySpecs",
+    "model": "Foresight V2-C",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1969BFS3",
+    "serial_total_len": 16,
+    "rid_tracking": "RID000002599",
+    "faa_status": "accepted",
+    "serial_range": "1969BFS300000000-1969BFS399999999"
+  },
+  {
+    "manufacturer": "SkySpecs",
+    "model": "Foresight V2-E",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1969BFS4",
+    "serial_total_len": 16,
+    "rid_tracking": "RID000002664",
+    "faa_status": "accepted",
+    "serial_range": "1969BFS400000000-1969BFS499999999"
+  },
+  {
+    "manufacturer": "Skydio",
+    "model": "2 SDRC2V1",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1668F241286889711239",
+    "serial_total_len": 20,
+    "mac_oui": [
+      56,
+      29,
+      20
+    ],
+    "rid_tracking": "RID000000300",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Skydio",
+    "model": "2+ SDR35V1",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1668BS20",
+    "serial_total_len": 16,
+    "mac_oui": [
+      56,
+      29,
+      20
+    ],
+    "rid_tracking": "RID000000099",
+    "faa_status": "accepted",
+    "serial_range": "1668BS20FB000000-1668BS20JB00ZZZZ"
+  },
+  {
+    "manufacturer": "Skydio",
+    "model": "2+ SDR35V2",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1668BS20",
+    "serial_total_len": 16,
+    "mac_oui": [
+      56,
+      29,
+      20
+    ],
+    "rid_tracking": "RID000000100",
+    "faa_status": "accepted",
+    "serial_range": "1668BS20FB000000-1668BS20JB00ZZZZ"
+  },
+  {
+    "manufacturer": "Skydio",
+    "model": "R10 SDR5PC",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1668BR70CA00UZ35",
+    "serial_total_len": 16,
+    "mac_oui": [
+      56,
+      29,
+      20
+    ],
+    "rid_tracking": "RID000002670",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Skydio",
+    "model": "X10E SR47P",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1668BR40EA0049F7",
+    "serial_total_len": 16,
+    "mac_oui": [
+      56,
+      29,
+      20
+    ],
+    "rid_tracking": "RID000000750",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Skydio",
+    "model": "X2E SDR21V1",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1668BE10JA00",
+    "serial_total_len": 16,
+    "mac_oui": [
+      56,
+      29,
+      20
+    ],
+    "rid_tracking": "RID000000097",
+    "faa_status": "accepted",
+    "serial_range": "1668BE10JA000000-1668BE10JA00ZZZZ"
+  },
+  {
+    "manufacturer": "Skydio",
+    "model": "X2E SDR21V2",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1668BE10JA00",
+    "serial_total_len": 16,
+    "mac_oui": [
+      56,
+      29,
+      20
+    ],
+    "rid_tracking": "RID000000098",
+    "faa_status": "accepted",
+    "serial_range": "1668BE10JA000000-1668BE10JA00ZZZZ"
+  },
+  {
+    "manufacturer": "Skyfront",
+    "model": "Perimeter 8",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1926FP82306LRS1N1000",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000000421",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "SmartDrone",
+    "model": "Discovery 2",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1866ASDD000",
+    "serial_total_len": 15,
+    "rid_tracking": "RID000000253",
+    "faa_status": "accepted",
+    "serial_range": "1866ASDD0000030-1866ASDD0005000"
+  },
+  {
+    "manufacturer": "SmartDrone",
+    "model": "Discovery 3",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1866ASD30000001",
+    "serial_total_len": 15,
+    "rid_tracking": "RID000000701",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "SmartDrone",
+    "model": "Magellan",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "18666",
+    "serial_total_len": 11,
+    "rid_tracking": "RID000002668",
+    "faa_status": "accepted",
+    "serial_range": "18666000001-18666999999"
+  },
+  {
+    "manufacturer": "Sony",
+    "model": "ARS-S1",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "17287200",
+    "serial_total_len": 12,
+    "rid_tracking": "RID000000017",
+    "faa_status": "accepted",
+    "serial_range": "172872001839-172872009999"
+  },
+  {
+    "manufacturer": "Spektrum",
+    "model": "SPMA9500 SkyID",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1849E074B8399FBD36W",
+    "serial_total_len": 19,
+    "rid_tracking": "RID000000461",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "SubUAS LLC",
+    "model": "NV8",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "2183F",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000002653",
+    "faa_status": "accepted",
+    "serial_range": "2183F000000000000000-2183FZZZZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "Sunflower Labs",
+    "model": "Beehive 01",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1595B11A204",
+    "serial_total_len": 16,
+    "rid_tracking": "RID000001807",
+    "faa_status": "accepted",
+    "serial_range": "1595B11A20400001-1595B11A20499999"
+  },
+  {
+    "manufacturer": "Sustainable Skylines",
+    "model": "AERO Sky",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "214850",
+    "serial_total_len": 10,
+    "rid_tracking": "RID000002617",
+    "faa_status": "accepted",
+    "serial_range": "2148500001-2148501000"
+  },
+  {
+    "manufacturer": "SwellPro",
+    "model": "A-RID",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1930FARD",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000001321",
+    "faa_status": "accepted",
+    "serial_range": "1930FARD000000000000-1930FARD999999999999"
+  },
+  {
+    "manufacturer": "SwellPro",
+    "model": "FD2",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1930FD02",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000001501",
+    "faa_status": "accepted",
+    "serial_range": "1930FD02000000000000-1930FD02999999999999"
+  },
+  {
+    "manufacturer": "SwellPro",
+    "model": "FD3",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1930FD03",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000001762",
+    "faa_status": "accepted",
+    "serial_range": "1930FD03000000000000-1930FD03999999999999"
+  },
+  {
+    "manufacturer": "Swoop Aero",
+    "model": "Kite",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "19476CZ4R2Q",
+    "serial_total_len": 11,
+    "rid_tracking": "RID000000694",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "TRIPLEFINE",
+    "model": "TF-15EX",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1922DTF15EX0000000",
+    "serial_total_len": 18,
+    "rid_tracking": "RID000000594",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "TRIPLEFINE",
+    "model": "TF35 PRO",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1922BTF350000000",
+    "serial_total_len": 16,
+    "rid_tracking": "RID000000595",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Talos Drones",
+    "model": "Talos T60x",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "2104F7EZ",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000002574",
+    "faa_status": "accepted",
+    "serial_range": "2104F7EZ000000000000-2104F7EZFFFFFFFFFFFF"
+  },
+  {
+    "manufacturer": "Teal Drones",
+    "model": "Teal 2",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1839FTD5029323320001",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000000454",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Telegrid LLC",
+    "model": "DE-2020",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "20303",
+    "serial_total_len": 8,
+    "rid_tracking": "RID000002566",
+    "faa_status": "accepted",
+    "serial_range": "20303114-20303999"
+  },
+  {
+    "manufacturer": "Terra Drone Corporation",
+    "model": "Model M1",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "21646000",
+    "serial_total_len": 11,
+    "rid_tracking": "RID000002676",
+    "faa_status": "accepted",
+    "serial_range": "21646000001-21646000100"
+  },
+  {
+    "manufacturer": "Tofect",
+    "model": "T60A",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "2161F105",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000002601",
+    "faa_status": "accepted",
+    "serial_range": "2161F105000000000000-2161F105999999999999"
+  },
+  {
+    "manufacturer": "TopXGun",
+    "model": "3WWDZ-50B",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "2111FP602523B2",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000002235",
+    "faa_status": "accepted",
+    "serial_range": "2111FP602523B2390001-2111FP602523B26C1000"
+  },
+  {
+    "manufacturer": "TopXGun",
+    "model": "3WWDZ-U60B",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "2111FP702524B2",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000002367",
+    "faa_status": "accepted",
+    "serial_range": "2111FP702524B24C0001-2111FP702524B25C9999"
+  },
+  {
+    "manufacturer": "Triad Drones",
+    "model": "Echo",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "19338TD20278A",
+    "serial_total_len": 13,
+    "rid_tracking": "RID000001293",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Tucok",
+    "model": "012S",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1900A12S0022085",
+    "serial_total_len": 15,
+    "rid_tracking": "RID000000581",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Tucok",
+    "model": "193MAX2S",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1900CMAX2S0000000",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000000584",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Tucok",
+    "model": "T70",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1900AT700000000",
+    "serial_total_len": 15,
+    "rid_tracking": "RID000000609",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "UAS",
+    "model": "RC",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1774FREM1010000",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000000223",
+    "faa_status": "accepted",
+    "serial_range": "1774FREM101000000001-1774FREM101000075000"
+  },
+  {
+    "manufacturer": "Veeniix",
+    "model": "V11",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "18729V11000001",
+    "serial_total_len": 14,
+    "rid_tracking": "RID000000447",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Veeniix",
+    "model": "V113",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "18727",
+    "serial_total_len": 12,
+    "rid_tracking": "RID000001887",
+    "faa_status": "accepted",
+    "serial_range": "187270000001-187271000000"
+  },
+  {
+    "manufacturer": "Veeniix",
+    "model": "V113S",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "18727",
+    "serial_total_len": 12,
+    "rid_tracking": "RID000001948",
+    "faa_status": "accepted",
+    "serial_range": "187275000001-187276000000"
+  },
+  {
+    "manufacturer": "Veeniix",
+    "model": "V11Air",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1872CV11AR",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000002000",
+    "faa_status": "accepted",
+    "serial_range": "1872CV11AR0000001-1872CV11AR1000000"
+  },
+  {
+    "manufacturer": "Veeniix",
+    "model": "V11PRO",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1872BV11P",
+    "serial_total_len": 16,
+    "rid_tracking": "RID000001690",
+    "faa_status": "accepted",
+    "serial_range": "1872BV11P0000001-1872BV11P1000000"
+  },
+  {
+    "manufacturer": "Vesper UAS",
+    "model": "Vesper UAS",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "2108F",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000002577",
+    "faa_status": "accepted",
+    "serial_range": "2108F000000000000000-2108FZZZZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "Vision Aerial",
+    "model": "SwitchBlade-Elite",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "178852",
+    "serial_total_len": 10,
+    "rid_tracking": "RID000000077",
+    "faa_status": "accepted",
+    "serial_range": "1788520100-1788529999"
+  },
+  {
+    "manufacturer": "Vision Aerial",
+    "model": "Vector",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "178852",
+    "serial_total_len": 10,
+    "rid_tracking": "RID000000113",
+    "faa_status": "accepted",
+    "serial_range": "1788520100-1788529999"
+  },
+  {
+    "manufacturer": "Voliro",
+    "model": "Voliro T",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1840A0000010000",
+    "serial_total_len": 15,
+    "rid_tracking": "RID000000600",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "WISPR",
+    "model": "Ranger Elite",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1889ERE0000",
+    "serial_total_len": 19,
+    "rid_tracking": "RID000000272",
+    "faa_status": "accepted",
+    "serial_range": "1889ERE000008012300-1889ERE000012313099"
+  },
+  {
+    "manufacturer": "WISPR",
+    "model": "Ranger Pro 1100",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1889ERP1100",
+    "serial_total_len": 19,
+    "rid_tracking": "RID000000271",
+    "faa_status": "accepted",
+    "serial_range": "1889ERP110001012100-1889ERP110012312599"
+  },
+  {
+    "manufacturer": "WISPR",
+    "model": "SkyScout",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1889ESS0000",
+    "serial_total_len": 19,
+    "rid_tracking": "RID000001457",
+    "faa_status": "accepted",
+    "serial_range": "1889ESS000004012401-1889ESS000012313099"
+  },
+  {
+    "manufacturer": "WISPR",
+    "model": "SkyScout 2+",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1889ESPP",
+    "serial_total_len": 19,
+    "rid_tracking": "RID000002597",
+    "faa_status": "accepted",
+    "serial_range": "1889ESPP00000000000-1889ESPP99999999999"
+  },
+  {
+    "manufacturer": "WISPR",
+    "model": "SkyScout E",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1889ESS",
+    "serial_total_len": 19,
+    "rid_tracking": "RID000002646",
+    "faa_status": "accepted",
+    "serial_range": "1889ESS000000000000-1889ESS999999999999"
+  },
+  {
+    "manufacturer": "WISPR",
+    "model": "SkyScout Pro",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1889ESP0000",
+    "serial_total_len": 19,
+    "rid_tracking": "RID000001456",
+    "faa_status": "accepted",
+    "serial_range": "1889ESP000004012401-1889ESP000012313099"
+  },
+  {
+    "manufacturer": "WISPR",
+    "model": "SkyScout Pro",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1889ESP",
+    "serial_total_len": 19,
+    "rid_tracking": "RID000001456",
+    "faa_status": "accepted",
+    "serial_range": "1889ESP000000000000-1889ESP999999999999"
+  },
+  {
+    "manufacturer": "Watts Innovations",
+    "model": "AERO Sky",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1785C000000001000",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000001735",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Watts Innovations",
+    "model": "PRISM",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1785C000000001001",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000001161",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Watts Innovations",
+    "model": "PRISM Lite",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1785C000000002000",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000000328",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Watts Innovations",
+    "model": "PRISM Sky",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1785C00000000",
+    "serial_total_len": 17,
+    "rid_tracking": "RID000000123",
+    "faa_status": "accepted",
+    "serial_range": "1785C000000006000-1785C000000007999"
+  },
+  {
+    "manufacturer": "Wing Aviation LLC",
+    "model": "Hummingbird",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "16335F",
+    "serial_total_len": 10,
+    "rid_tracking": "RID000002169",
+    "faa_status": "accepted",
+    "serial_range": "16335F0401-16335F2800"
+  },
+  {
+    "manufacturer": "Wing Aviation LLC",
+    "model": "Hummingbird",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "16335",
+    "serial_total_len": 10,
+    "rid_tracking": "RID000001459",
+    "faa_status": "accepted",
+    "serial_range": "16335B0183-16335D9999"
+  },
+  {
+    "manufacturer": "Wing Aviation LLC",
+    "model": "Hummingbird",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "16635",
+    "serial_total_len": 10,
+    "rid_tracking": "RID000001459",
+    "faa_status": "accepted",
+    "serial_range": "16635B0183-16635E9999"
+  },
+  {
+    "manufacturer": "Wing Aviation LLC",
+    "model": "Hummingbird v2",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "16335A3697",
+    "serial_total_len": 10,
+    "rid_tracking": "RID000000488",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Wingcopter",
+    "model": "198",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1607B0198X000142",
+    "serial_total_len": 16,
+    "rid_tracking": "RID000002629",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Wingtra",
+    "model": "WingtraOne Gen II",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "17444",
+    "serial_total_len": 9,
+    "rid_tracking": "RID000000006",
+    "faa_status": "accepted",
+    "serial_range": "174442423-174449999"
+  },
+  {
+    "manufacturer": "Wingtra",
+    "model": "WingtraRAY",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "174451",
+    "serial_total_len": 10,
+    "rid_tracking": "RID000002590",
+    "faa_status": "accepted",
+    "serial_range": "1744510000-1744519999"
+  },
+  {
+    "manufacturer": "Workhorse Aero",
+    "model": "WA4-100",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "18847000002C",
+    "serial_total_len": 12,
+    "rid_tracking": "RID000000282",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "XAG",
+    "model": "P100",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1863FPEG8218",
+    "serial_total_len": 20,
+    "mac_oui": [
+      164,
+      81,
+      41
+    ],
+    "rid_tracking": "RID000000162",
+    "faa_status": "accepted",
+    "serial_range": "1863FPEG821800000000-1863FPEG8218999ZZZZZ"
+  },
+  {
+    "manufacturer": "XAG",
+    "model": "P100 Pro",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1863FPEG8219",
+    "serial_total_len": 20,
+    "mac_oui": [
+      164,
+      81,
+      41
+    ],
+    "rid_tracking": "RID000000163",
+    "faa_status": "accepted",
+    "serial_range": "1863FPEG821900000000-1863FPEG8219999ZZZZZ"
+  },
+  {
+    "manufacturer": "XAG",
+    "model": "P150",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1863FPEG8223",
+    "serial_total_len": 20,
+    "mac_oui": [
+      164,
+      81,
+      41
+    ],
+    "rid_tracking": "RID000002240",
+    "faa_status": "accepted",
+    "serial_range": "1863FPEG822300000000-1863FPEG8223999ZZZZZ"
+  },
+  {
+    "manufacturer": "XAG",
+    "model": "P150 Max",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1863F251",
+    "serial_total_len": 20,
+    "mac_oui": [
+      164,
+      81,
+      41
+    ],
+    "rid_tracking": "RID000002602",
+    "faa_status": "accepted",
+    "serial_range": "1863F251000000000000-1863F251ZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "XAG",
+    "model": "P60",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1863F242",
+    "serial_total_len": 20,
+    "mac_oui": [
+      164,
+      81,
+      41
+    ],
+    "rid_tracking": "RID000002588",
+    "faa_status": "accepted",
+    "serial_range": "1863F242000000000000-1863F242ZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "XM2 Labs",
+    "model": "XTD-120",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1928FXTD000000000201",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000000459",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "XPECE",
+    "model": "ONE",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "2098EMD241V01000000",
+    "serial_total_len": 19,
+    "rid_tracking": "RID000002197",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "XiL",
+    "model": "019",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1860A0190040839",
+    "serial_total_len": 15,
+    "rid_tracking": "RID000002133",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "XiL",
+    "model": "193E",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1860B193E0000000",
+    "serial_total_len": 16,
+    "rid_tracking": "RID000000611",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "ZERO ZERO ROBOTICS",
+    "model": "ZZ-H-1-003",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "2095FH05",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000002593",
+    "faa_status": "accepted",
+    "serial_range": "2095FH05000000000000-2095FH05ZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "ZERO ZERO ROBOTICS",
+    "model": "ZZ-H-1-004",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "2095FH04",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000002594",
+    "faa_status": "accepted",
+    "serial_range": "2095FH04000000000000-2095FH04ZZZZZZZZZZZZ"
+  },
+  {
+    "manufacturer": "Zephyr Systems",
+    "model": "ARK-350",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1795F350ZS",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000000055",
+    "faa_status": "accepted",
+    "serial_range": "1795F350ZS2201000000-1795F350ZS5001000000"
+  },
+  {
+    "manufacturer": "Zephyr Systems",
+    "model": "Module 100",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1795F01ZS",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000000031",
+    "faa_status": "accepted",
+    "serial_range": "1795F01ZS22010000000-1795F01ZS50120000000"
+  },
+  {
+    "manufacturer": "Zephyr Systems",
+    "model": "OKO-250",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1",
+    "serial_total_len": 20,
+    "rid_tracking": "RID000000049",
+    "faa_status": "accepted",
+    "serial_range": "1795F250ZS2201000000-1975F250ZS5012000000"
+  },
+  {
+    "manufacturer": "Zing Drone Solutions",
+    "model": "Z-RID",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "18919ZNG099991",
+    "serial_total_len": 14,
+    "rid_tracking": "RID000000645",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Zing Drone Solutions",
+    "model": "Z-RID Lite",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "18918ZL000001",
+    "serial_total_len": 13,
+    "rid_tracking": "RID000001023",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Zing Drone Solutions",
+    "model": "Z-RID Lite V2",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "18918ZLL00002",
+    "serial_total_len": 13,
+    "rid_tracking": "RID000001141",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Zipline",
+    "model": "P2 Zip",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "18735P2109",
+    "serial_total_len": 10,
+    "rid_tracking": "RID000002128",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "Zipline",
+    "model": "Sparrow",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "187341021",
+    "serial_total_len": 9,
+    "rid_tracking": "RID000000397",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "blueflite",
+    "model": "461",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "184384610",
+    "serial_total_len": 13,
+    "rid_tracking": "RID000001730",
+    "faa_status": "accepted",
+    "serial_range": "1843846100001-1843846101000"
+  },
+  {
+    "manufacturer": "blueflite",
+    "model": "461",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "184380000",
+    "serial_total_len": 13,
+    "rid_tracking": "RID000001730",
+    "faa_status": "accepted",
+    "serial_range": "1843800000045-1843800001000"
+  },
+  {
+    "manufacturer": "idME",
+    "model": "Pro",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "18099300000130",
+    "serial_total_len": 14,
+    "rid_tracking": "RID000000309",
+    "faa_status": "accepted"
+  },
+  {
+    "manufacturer": "uAvionix",
+    "model": "pingRID",
+    "ua_type": 2,
+    "id_type": 1,
+    "serial_prefix": "1792C000000",
+    "serial_total_len": 17,
+    "mac_oui": [
+      4,
+      113,
+      75
+    ],
+    "rid_tracking": "RID000000132",
+    "faa_status": "accepted",
+    "serial_range": "1792C000000000000-1792C000000FFFFFF"
   }
 ]
